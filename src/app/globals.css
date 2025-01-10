@@ -27,6 +27,9 @@
 .hover-blue:hover {
   color: blue !important; /* Changes the text color to blue on hover */
 }
+.hover-bg-light:hover{
+  background-color:#f8f9f9 !important;
+}
 
 .background-navy{
   background-color: #021461;
@@ -42,6 +45,9 @@
 }
 .background-light-gray{
   background-color: #f8f9f9;
+}
+.background-golden{
+  background-color: #f4d03f;
 }
 
 .circle {
