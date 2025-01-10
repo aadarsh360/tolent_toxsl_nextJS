@@ -1,0 +1,83 @@
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Navbar.css */
+.navbar-nav .nav-item {
+  
+  /* font-family: 'Oswald', sans-serif; */
+}
+
+.navbar-li-font{
+  
+  
+  font-size: 20px;
+  letter-spacing: -1px;
+  
+}
+.navbar-a-height{
+  line-height: 50px;
+ 
+}
+
+/* Footer */
+.hover-blue:hover {
+  color: blue !important; /* Changes the text color to blue on hover */
+}
+
+.background-navy{
+  background-color: #021461;
+}
+.text-align-center{
+  text-align: center;
+}
+.text-green{
+  color: #32CD32;
+}
+.text-navy{
+  color: #021461;
+}
+.background-light-gray{
+  background-color: #f8f9f9;
+}
+
+.circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+ 
+  position: relative;
+}
+.number-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #FFA726;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 16px;
+  position: absolute;
+  bottom: 45px;
+  left: 5%;
+  transform: translateX(-50%);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.gradient-background-blue-sky {
+  background: linear-gradient(to right, #0000FF, #0695f3 ); /* Left to right gradient */
+}
+.gradient-background-sky-blue {
+  background: linear-gradient(to right, #0695f3, #0000FF ); /* Left to right gradient */
+}
