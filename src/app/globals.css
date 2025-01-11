@@ -87,3 +87,79 @@
 .gradient-background-sky-blue {
   background: linear-gradient(to right, #0695f3, #0000FF ); /* Left to right gradient */
 }
+
+/* Footer toxsl start */
+
+.background-dark-blue{
+  background-color: #27104c;
+}
+
+.hover-pink:hover {
+  color: #f43f89  !important; /* Changes the text color to blue on hover */
+}
+
+.list-item {
+  position: relative;
+  overflow: hidden; /* Ensure the underline doesn't overflow */
+}
+
+.link-hover::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #f43f89;
+  /* transform: translateX(-100%); */
+  transition: transform 0.3s ease-in-out;
+  transform: scaleX(0); /* Initially hidden (no underline) */
+  transform-origin: left; /* Start from the left */
+  /* transition: transform 0.3s ease-in-out; Smooth animation  */
+}
+
+.link-hover:hover::after {
+  /* transform: translateX(0); */
+  transform: scaleX(1); /* Expand the underline on hover */
+}
+.link-hover::after {
+  /* When not hovered, transform retracts smoothly to the right */
+  /* transform-origin: right; Retract from right */
+}
+
+
+/* Footer toxsl end */
+
+
+/* Container for the rain effect */
+.rain-container {
+  position: relative;
+  width: 300px; /* Adjust width */
+  height: 400px; /* Adjust height */
+  background-color: #282c34; /* Background color */
+  overflow: hidden; /* Hide raindrops outside the container */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+/* Raindrop symbol styling */
+.raindrop {
+  position: absolute;
+  font-size: 24px; /* Size of the raindrop symbol */
+  animation: fall 3s linear infinite;
+  opacity: 0.8;
+}
+
+/* Keyframes for raindrop animation */
+@keyframes fall {
+  0% {
+    transform: translateY(-100px); /* Start above the container */
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(400px); /* Match the container height */
+    opacity: 0; /* Disappear as it falls */
+  }
+}
