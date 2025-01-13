@@ -49,6 +49,12 @@
 .background-golden{
   background-color: #f4d03f;
 }
+.background-light-sky{
+  background-color: #d9f2f3 ;
+}
+.background-blue-gray{
+  background-color: #e6e9ea;
+}
 
 .circle {
   width: 150px;
@@ -131,12 +137,12 @@
 /* Footer toxsl end */
 
 
-/* Container for the rain effect */
+/* Container for the rain effect start */
 .rain-container {
   position: relative;
-  width: 300px; /* Adjust width */
-  height: 400px; /* Adjust height */
-  background-color: #282c34; /* Background color */
+   /* width: 300px; Adjust width */
+  /* height: 400px; Adjust height */
+  /* background-color: #282c34; Background color  */
   overflow: hidden; /* Hide raindrops outside the container */
   display: flex;
   justify-content: center;
@@ -147,19 +153,25 @@
 /* Raindrop symbol styling */
 .raindrop {
   position: absolute;
-  font-size: 24px; /* Size of the raindrop symbol */
-  animation: fall 3s linear infinite;
+  font-size: 50px; /* Size of the raindrop symbol */
+  animation: fall 5s linear infinite;
   opacity: 0.8;
 }
 
 /* Keyframes for raindrop animation */
 @keyframes fall {
   0% {
-    transform: translateY(-100px); /* Start above the container */
+    transform: translateY(-400px); /* Start above the container */
     opacity: 1;
+  }
+  50% {
+    transform: translateX(-100px);
   }
   100% {
     transform: translateY(400px); /* Match the container height */
     opacity: 0; /* Disappear as it falls */
   }
 }
+
+/* Container for the rain effect start */
+

@@ -2,9 +2,9 @@ import React from 'react'
 
 function OscillatingArrow() {
     return (
-        <div className="text-center mt-5">
+        <span className="px-2">
             <span
-                className="fs-1"
+                className=""
                 style={{
                     display: "inline-block",
                     animation: "oscillate 2s infinite",
@@ -23,7 +23,7 @@ function OscillatingArrow() {
           }
         `}
             </style>
-        </div>
+        </span>
     )
 }
 

@@ -1,9 +1,9 @@
 import React from 'react'
 
+
 function FooterToxsl() {
     return (
-        <footer className="background-dark-blue text-white py-5">
-
+        <footer className="background-dark-blue text-white py-5 rain-container">
             <div className="container">
                 <div className="row">
                     {/* Company Column */}
