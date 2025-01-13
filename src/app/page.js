@@ -5,11 +5,22 @@ import Footer from "./components/Footer"
 import FooterToxsl from "./components/FooterToxsl";
 import OscillatingArrow from "./components/OscillatingArrow";
 import OurHappyClient from "./components/OurHappyClient";
+import ComprehensiveTechnologyStack from "./components/ComprehensiveTechnologyStack";
+import IndustriesWeServe from "./components/IndustriesWeServe";
+import ServicesWeOffer from "./components/ServicesWeOffer";
 
 export default function Home() {
   return (
     <div className="">
-      
+
+      {/* ==================================================================================================================== */}
+      <ServicesWeOffer />
+      {/* ======================================================================================================================== */}
+
+      <IndustriesWeServe />
+
+      {/* =========================================================================================================================== */}
+      <ComprehensiveTechnologyStack />
       {/* ==================================================================================================================== */}
       <div className="background-light-sky py-5">
         <div className=" container">
@@ -24,7 +35,7 @@ export default function Home() {
                 src="https://toxsl.com/themes/new/img/glassdoor.svg"
                 alt="Image"
                 className="card-img-top p-2"
-                style={{ height: '100px', width:'100px', objectFit: 'contain' }}
+                style={{ height: '100px', width: '100px', objectFit: 'contain' }}
               />
             </div>
 
@@ -33,7 +44,7 @@ export default function Home() {
                 src="https://toxsl.com/themes/new/img/clutch-img.webp"
                 alt="Image"
                 className="card-img-top p-2"
-                style={{ height: '100px', width:'100px', objectFit: 'contain' }}
+                style={{ height: '100px', width: '100px', objectFit: 'contain' }}
               />
             </div>
 
@@ -42,7 +53,7 @@ export default function Home() {
                 src="https://toxsl.com/themes/new/img/goodfirm.png"
                 alt="Image"
                 className="card-img-top p-2"
-                style={{ height: '100px', width:'100px', objectFit: 'contain' }}
+                style={{ height: '100px', width: '100px', objectFit: 'contain' }}
               />
             </div>
 
@@ -51,7 +62,7 @@ export default function Home() {
                 src="https://toxsl.com/themes/new/img/people-per-hour.png"
                 alt="Image"
                 className="card-img-top p-2"
-                style={{ height: '100px', width:'100px', objectFit: 'contain' }}
+                style={{ height: '100px', width: '100px', objectFit: 'contain' }}
               />
             </div>
 
@@ -60,7 +71,7 @@ export default function Home() {
                 src="https://toxsl.com/themes/new/img/techreviewer.svg"
                 alt="Image"
                 className="card-img-top p-2"
-                style={{ height: '100px', width:'100px', objectFit: 'contain' }}
+                style={{ height: '100px', width: '100px', objectFit: 'contain' }}
               />
             </div>
 
@@ -74,7 +85,7 @@ export default function Home() {
                 src="https://toxsl.com/themes/new/img/appfutura-badge.png"
                 alt="Image"
                 className="card-img-top p-2"
-                style={{ height: '100px', width:'100px', objectFit: 'contain' }}
+                style={{ height: '100px', width: '100px', objectFit: 'contain' }}
               />
             </div>
 
@@ -83,7 +94,7 @@ export default function Home() {
                 src="https://toxsl.com/themes/new/img/upwork.png"
                 alt="Image"
                 className="card-img-top p-2"
-                style={{ height: '100px', width:'100px', objectFit: 'contain' }}
+                style={{ height: '100px', width: '100px', objectFit: 'contain' }}
               />
             </div>
 
@@ -92,7 +103,7 @@ export default function Home() {
                 src="https://toxsl.com/themes/new/img/top-developers.webp"
                 alt="Image"
                 className="card-img-top p-2"
-                style={{ height: '100px', width:'100px', objectFit: 'contain' }}
+                style={{ height: '100px', width: '100px', objectFit: 'contain' }}
               />
             </div>
 
@@ -101,7 +112,7 @@ export default function Home() {
                 src="https://toxsl.com/themes/new/img/tech-behemoths.svg"
                 alt="Image"
                 className="card-img-top img-fluid p-2"
-                style={{ height: '100px', width:'100px', objectFit: 'contain' }}
+                style={{ height: '100px', width: '100px', objectFit: 'contain' }}
               />
             </div>
 
@@ -110,7 +121,7 @@ export default function Home() {
                 src="https://toxsl.com/themes/new/img/mobile-app-daily.webp"
                 alt="Image"
                 className="card-img-top p-2"
-                style={{ height: '100px', width:'100px', objectFit: 'contain' }}
+                style={{ height: '100px', width: '100px', objectFit: 'contain' }}
               />
             </div>
 
