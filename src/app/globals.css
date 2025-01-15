@@ -173,4 +173,69 @@
   }
 }
 
-/* Container for the rain effect start */
+/* move div up and down start */
+.outer-container {
+  position: relative; /* Position relative for animation */
+  animation: moveUpDown 3s ease-in-out infinite; /* Animation applied */
+}
+
+.inner-div {
+  background-color: #0D47A1; /* Optional: Styling for inner div */
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+@keyframes moveUpDown {
+  0%, 100% {
+    transform: translateY(-100px); /* Original position */
+  }
+  50% {
+    transform: translateY(0); /* Moves up by 20px */
+  }
+}
+/* move div up and down end  */
+
+
+ /* hexagon start*/
+ .hexagon {
+  width: 120px;
+  height: 138.56px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #f5f5f5;
+  clip-path: polygon(
+    50% 0%,
+    100% 25%,
+    100% 75%,
+    50% 100%,
+    0% 75%,
+    0% 25%
+  );
+  margin: 0 auto;
+  transition: transform 0.3s ease;
+}
+
+.hexagon:hover {
+  transform: scale(1.1);
+}
+
+.hexagon img {
+  max-width: 60%;
+  height: auto;
+}
+
+.hex-title {
+  position: absolute;
+  bottom: -25px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #333;
+  text-transform: uppercase;
+}
+
+ /* hexagon end */
