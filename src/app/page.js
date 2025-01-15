@@ -16,6 +16,8 @@ import "slick-carousel/slick/slick-theme.css";
 import SampleNextArrow from './components/SliderArrow';
 import SamplePrevArrow from './components/SliderArrow';
 import TechGrid from "./components/TechGrid";
+import Navbar2 from "./components/Navbar2";
+import ChatWithUs from "./components/ChatWithUs";
 
 
 
@@ -34,18 +36,28 @@ function Home() {
 
   };
 
+  var settings2 = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
+
   return (
     <div className="">
 
+      <Navbar2 />
+      <ChatWithUs />
 
-      <div className=" py-5">
-        <div className="container py-5 border">
-
+      <div className="mt-5 mb-5 py-5">
+        <div className="container py-5">
+          
           <Slider {...settings}>
             {/* first row  */}
             <div className="row d-flex">
 
-              <div className="col-lg-6 col-12 py-4 ">
+              <div className="col-lg-6 col-md-6 col-12 py-4 ">
                 <p className="fw-bold fs-5">Perfect Blend of Technology & Creativity!</p>
 
                 <h1 className="" style={{ color: "#0D47A1", fontSize: "45px" }}>Web & App<br></br> Development<br></br> Company</h1>
@@ -56,7 +68,7 @@ function Home() {
                 <button className="btn btn-outline-primary px-2 py-2">Contact Us <OscillatingArrow /> </button>
               </div>
 
-              <div className="col-lg-6 col-12">
+              <div className="col-lg-6 col-md-6 col-12">
                 <img
                   src="https://toxsl.com/themes/new/img/img-banner.webp"
                   alt="Image"
@@ -70,7 +82,7 @@ function Home() {
 
             {/* second row  */}
             <div className="row d-flex">
-              <div className="col-lg-6 col-12 py-4 ">
+              <div className="col-lg-6 col-md-6 col-12 py-4 ">
                 <p className="fw-bold fs-5">Delivering Success In Every Solution!</p>
 
                 <h1 className="" style={{ color: "#0D47A1", fontSize: "45px" }}>Custom Software<br></br> Development<br></br> Company</h1>
@@ -81,7 +93,7 @@ function Home() {
                 <button className="btn btn-outline-primary px-2 py-2">Contact Us <OscillatingArrow /> </button>
               </div>
 
-              <div className="col-lg-6 col-12">
+              <div className="col-lg-6 col-md-6 col-12">
                 <img
                   src="https://toxsl.com/themes/new/img/softwaredv.webp"
                   alt="Image"
@@ -245,7 +257,6 @@ function Home() {
         </div>
       </div>
       {/* ========================================================================================================================= */}
-    
 
       {/* ==================================================================================================================== */}
       <ServicesWeOffer />
@@ -369,6 +380,74 @@ function Home() {
       <OurHappyClient />
 
       {/* ============================================================================================================== */}
+
+      <div className="background-blue-gray py-5">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-5 col-12 d-flex align-items-center ">
+
+              <div>
+                <h2 className="" style={{ color: "#0D47A1" }}>What Our Clients Say!</h2>
+                <p className="fs-5">Over 2000+ satisfied clients and growing.</p>
+              </div>
+
+            </div>
+            <div className="col-md-7 col-12">
+
+              <div style={{ height: "400px" }}>
+                <Slider {...settings2}>
+                  <div className="bg-white p-4" style={{ height: "400px" }} >
+
+                    <p>jiTalent embraces the power of change to create 360° value and shared success for our partners, communities, and the talented individuals we connect with.</p>
+
+                    <h6>Rahul Gupta</h6>
+                    <p>India</p>
+
+                    <p className="text-white">start</p>
+                    <p className="text-white">start</p>
+                    <p className="text-white">start</p>
+                    <p className="text-white">start</p>
+                    <p className="text-white">start</p>
+
+
+                  </div>
+
+
+                  <div className="bg-white p-4" style={{ height: "100%" }}>
+                    <p>jiTalent embraces the power of change to create 360° value and shared success for our partners, communities, and the talented individuals we connect with.</p>
+
+                    <h6>Ankit Kumar</h6>
+                    <p>India</p>
+
+                    <p className="text-white">start</p>
+                    <p className="text-white">start</p>
+                    <p className="text-white">start</p>
+                    <p className="text-white">start</p>
+                    <p className="text-white">start</p>
+                  </div>
+
+                  <div className="bg-white p-4" style={{ height: "100%" }}>
+                    <p>jiTalent embraces the power of change to create 360° value and shared success for our partners, communities, and the talented individuals we connect with.</p>
+
+                    <h6>Anoop Singh</h6>
+                    <p>India</p>
+
+                    <p className="text-white">start</p>
+                    <p className="text-white">start</p>
+                    <p className="text-white">start</p>
+                    <p className="text-white">start</p>
+                    <p className="text-white">start</p>
+                  </div>
+
+                </Slider>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* =========================================================================================================================== */}
       <div className="background-light-sky py-5">
         <div className="container my-5">
           <div className="text-center">
