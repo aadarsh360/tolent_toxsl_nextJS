@@ -176,7 +176,7 @@ function page() {
             </div>
 
             {/* ============================================================================================================= */}
-            <div className='bg-danger py-4'>
+            <div className='py-4' style={{ backgroundColor: "#021461"}}>
                 <div className='container'>
                     <div>
                         <p className='fs-5 text-white'>Why ToXSL</p>

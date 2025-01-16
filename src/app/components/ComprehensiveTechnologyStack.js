@@ -198,7 +198,7 @@ function ComprehensiveTechnologyStack() {
 
                 <div className=' row py-2'>
                     {/* Left Side: Content List */}
-                    <div className='col-lg-3 col-md-3 col-sm-3 py-2 d-flex flex-column ' style={{width:"30%"}}>
+                    <div className='col-lg-3 col-md-3 col-sm-3 py-2 d-flex flex-column '>
                         <ul className='' style={{ listStyleType: "none" }}>
                             {contentData.map((content) => (
                                 <li
@@ -214,7 +214,7 @@ function ComprehensiveTechnologyStack() {
                     </div>
 
                     {/* Right Side: Images */}
-                    <div className='col-lg-9 col-md-9 col-sm-9  p-1 ' style={{width:"70%"}}>
+                    <div className='col-lg-9 col-md-9 col-sm-9  p-1 '>
                         <div className='row g-2 '>
                             {contentData
                                 .find((content) => content.id === activeContent)

@@ -44,7 +44,7 @@ function Navbar2() {
                         </li>
 
                         <li className="nav-item">
-                            <button className="btn gradient-background-blue-sky text-white px-3 py-2">Contact Us </button>
+                            <button className="border-0 rounded gradient-background-blue-sky text-white px-3 py-2">Contact Us </button>
                         </li>
                     </ul>
 
