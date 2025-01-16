@@ -1,3 +1,4 @@
+import ChatWithUs from '@/app/components/ChatWithUs'
 import FooterToxsl from '@/app/components/FooterToxsl'
 import Navbar2 from '@/app/components/Navbar2'
 import OscillatingArrow from '@/app/components/OscillatingArrow'
@@ -9,6 +10,8 @@ function page() {
         <>
 
             <Navbar2 />
+
+            <ChatWithUs />
             {/* ========================================================================================================================= */}
             {/* hero section  */}
             <div>
@@ -130,7 +133,18 @@ function page() {
             {/* ============================================================================================================================== */}
 
             {/* one  */}
-            <div className="container-fluid">
+            <div className="container-fluid" style={{ position: "relative" }}>
+
+                {/* Centered Images */}
+                <div className='portfolio-centered-image' >
+                    <img
+                        src="https://toxsl.com/portfolio/image/597/wonolo1.png"
+                        alt="Mobile View 1"
+                        className="img-fluid "
+                        style={{ width: "400px", }}
+                    />
+                </div>
+
                 <div className="row " style={{ height: "100vh" }}>
                     {/* column 1  */}
                     <div className='col-lg-1 d-none d-lg-block '></div>
@@ -196,6 +210,7 @@ function page() {
                             backgroundImage: "url('https://toxsl.com/portfolio/bc-image/597?file=portfolio-1688469938-background_image-use_id_7.png')",
                             backgroundSize: "cover",
                             backgroundPosition: "center",
+                            overflow: "hidden",
                             position: "relative",
                             // height: "100%"
                         }}
@@ -208,7 +223,17 @@ function page() {
             {/* -------------------------------------------------------------------------------------------------------------------------------------- */}
 
             {/* two  */}
-            <div className="container-fluid">
+            <div className="container-fluid" style={{ position: "relative" }} >
+                {/* Centered Images */}
+                <div className='portfolio-centered-image2' >
+                    <img
+                        src="https://toxsl.com/portfolio/image/1001/1733897599-Group+1000005435.png"
+                        alt="Mobile View 1"
+                        className="img-fluid "
+                        style={{ width: "400px", }}
+                    />
+                </div>
+
                 <div className="row " style={{ height: "100vh" }}>
 
                     {/* column 4  */}
@@ -230,7 +255,7 @@ function page() {
                     <div className='col-lg-1 d-none d-lg-block '></div>
                     {/* column 2 */}
                     {/* Left Side Content */}
-                    <div className="col-lg-4 col-12 py-5 px-2 " style={{ background: "#fff" }}>
+                    <div className="col-lg-4 col-12 py-5 px-2" style={{ background: "#fff" }}>
                         <div>
                             <div className='py-2'>
                                 <h1 className='text-strong-blue'>NEXTLEVEL</h1>
@@ -271,7 +296,17 @@ function page() {
             {/* --------------------------------------------------------------------------------------------------------------------------------- */}
 
             {/* three  */}
-            <div className="container-fluid">
+            <div className="container-fluid" style={{ position: "relative" }}>
+                {/* Centered Images */}
+                <div className='portfolio-centered-image' >
+                    <img
+                        src="https://toxsl.com/portfolio/image/990/blinq.png"
+                        alt="Mobile View 1"
+                        className="img-fluid "
+                        style={{ width: "400px", }}
+                    />
+                </div>
+
                 <div className="row " style={{ height: "100vh" }}>
                     {/* column 1  */}
                     <div className='col-lg-1 d-none d-lg-block '></div>
@@ -347,7 +382,17 @@ function page() {
             {/* -------------------------------------------------------------------------------------------------------------------------------------- */}
 
             {/* four  */}
-            <div className="container-fluid">
+            <div className="container-fluid" style={{ position: "relative" }}>
+                {/* Centered Images */}
+                <div className='portfolio-centered-image2' >
+                    <img
+                        src="https://toxsl.com/portfolio/image/997/thek.ai1.png"
+                        alt="Mobile View 1"
+                        className="img-fluid "
+                        style={{ width: "400px", }}
+                    />
+                </div>
+
                 <div className="row " style={{ height: "100vh" }}>
 
                     {/* column 4  */}
@@ -410,7 +455,17 @@ function page() {
             {/* --------------------------------------------------------------------------------------------------------------------------------- */}
 
             {/* five */}
-            <div className="container-fluid">
+            <div className="container-fluid" style={{ position: "relative" }}>
+                {/* Centered Images */}
+                <div className='portfolio-centered-image' >
+                    <img
+                        src="https://toxsl.com/portfolio/image/597/wonolo1.png"
+                        alt="Mobile View 1"
+                        className="img-fluid "
+                        style={{ width: "400px", }}
+                    />
+                </div>
+
                 <div className="row " style={{ height: "100vh" }}>
                     {/* column 1  */}
                     <div className='col-lg-1 d-none d-lg-block '></div>
@@ -484,7 +539,17 @@ function page() {
             {/* -------------------------------------------------------------------------------------------------------------------------------------- */}
 
             {/* six  */}
-            <div className="container-fluid">
+            <div className="container-fluid" style={{ position: "relative" }}>
+                {/* Centered Images */}
+                <div className='portfolio-centered-image2' >
+                    <img
+                        src="https://toxsl.com/portfolio/image/597/wonolo1.png"
+                        alt="Mobile View 1"
+                        className="img-fluid "
+                        style={{ width: "400px", }}
+                    />
+                </div>
+
                 <div className="row " style={{ height: "100vh" }}>
 
                     {/* column 4  */}
@@ -547,7 +612,17 @@ function page() {
             {/* --------------------------------------------------------------------------------------------------------------------------------- */}
 
             {/* seven */}
-            <div className="container-fluid">
+            <div className="container-fluid" style={{ position: "relative" }}>
+                {/* Centered Images */}
+                <div className='portfolio-centered-image' >
+                    <img
+                        src="https://toxsl.com/portfolio/image/597/wonolo1.png"
+                        alt="Mobile View 1"
+                        className="img-fluid "
+                        style={{ width: "400px", }}
+                    />
+                </div>
+
                 <div className="row " style={{ height: "100vh" }}>
                     {/* column 1  */}
                     <div className='col-lg-1 d-none d-lg-block '></div>
@@ -623,7 +698,17 @@ function page() {
             {/* -------------------------------------------------------------------------------------------------------------------------------------- */}
 
             {/* eight  */}
-            <div className="container-fluid">
+            <div className="container-fluid" style={{ position: "relative" }}>
+                {/* Centered Images */}
+                <div className='portfolio-centered-image2' >
+                    <img
+                        src="https://toxsl.com/portfolio/image/597/wonolo1.png"
+                        alt="Mobile View 1"
+                        className="img-fluid "
+                        style={{ width: "400px", }}
+                    />
+                </div>
+
                 <div className="row " style={{ height: "100vh" }}>
 
                     {/* column 4  */}
@@ -686,7 +771,17 @@ function page() {
             {/* --------------------------------------------------------------------------------------------------------------------------------- */}
 
             {/* nine  */}
-            <div className="container-fluid">
+            <div className="container-fluid" style={{ position: "relative" }}>
+                {/* Centered Images */}
+                <div className='portfolio-centered-image' >
+                    <img
+                        src="https://toxsl.com/portfolio/image/597/wonolo1.png"
+                        alt="Mobile View 1"
+                        className="img-fluid "
+                        style={{ width: "400px", }}
+                    />
+                </div>
+
                 <div className="row " style={{ height: "100vh" }}>
                     {/* column 1  */}
                     <div className='col-lg-1 d-none d-lg-block '></div>
@@ -764,7 +859,17 @@ function page() {
             {/* -------------------------------------------------------------------------------------------------------------------------------------- */}
 
             {/* ten  */}
-            <div className="container-fluid">
+            <div className="container-fluid" style={{ position: "relative" }}>
+                {/* Centered Images */}
+                <div className='portfolio-centered-image2' >
+                    <img
+                        src="https://toxsl.com/portfolio/image/597/wonolo1.png"
+                        alt="Mobile View 1"
+                        className="img-fluid "
+                        style={{ width: "400px", }}
+                    />
+                </div>
+
                 <div className="row " style={{ height: "100vh" }}>
 
                     {/* column 4  */}
@@ -827,7 +932,17 @@ function page() {
             {/* --------------------------------------------------------------------------------------------------------------------------------- */}
 
             {/* eleven  */}
-            <div className="container-fluid">
+            <div className="container-fluid" style={{ position: "relative" }}>
+                {/* Centered Images */}
+                <div className='portfolio-centered-image' >
+                    <img
+                        src="https://toxsl.com/portfolio/image/597/wonolo1.png"
+                        alt="Mobile View 1"
+                        className="img-fluid "
+                        style={{ width: "400px", }}
+                    />
+                </div>
+
                 <div className="row " style={{ height: "100vh" }}>
                     {/* column 1  */}
                     <div className='col-lg-1 d-none d-lg-block '></div>
@@ -903,7 +1018,17 @@ function page() {
             {/* -------------------------------------------------------------------------------------------------------------------------------------- */}
 
             {/* twelve  */}
-            <div className="container-fluid">
+            <div className="container-fluid" style={{ position: "relative" }}>
+                {/* Centered Images */}
+                <div className='portfolio-centered-image2' >
+                    <img
+                        src="https://toxsl.com/portfolio/image/597/wonolo1.png"
+                        alt="Mobile View 1"
+                        className="img-fluid "
+                        style={{ width: "400px", }}
+                    />
+                </div>
+
                 <div className="row " style={{ height: "100vh" }}>
 
                     {/* column 4  */}

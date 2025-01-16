@@ -249,3 +249,47 @@
 }
 
  /* hexagon end */
+
+
+ /* portfolio css start */
+ .portfolio-centered-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, -50%);
+  z-index: 10; /* Ensures it stays above other elements */
+ }
+
+ .portfolio-centered-image2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-80%, -50%);
+  z-index: 10; /* Ensures it stays above other elements */
+ }
+
+
+/* For small screens */
+@media (max-width: 991px) {
+  .portfolio-centered-image {
+    position: relative; /* Moves it out of the absolute center */
+    top: auto;
+    left: auto;
+    transform: none;
+    /*margin-top: 20px;  Add space above */
+    display: flex;
+    justify-content: center; /* Center horizontally in the container */
+  }
+
+  .portfolio-centered-image2 {
+    position: relative; /* Moves it out of the absolute center */
+    top: auto;
+    left: auto;
+    transform: none;
+    margin-top: 20px; /* Add space above */
+    display: flex;
+    justify-content: center; /* Center horizontally in the container */
+  }
+}
+
+ /* portfolio css end  */
