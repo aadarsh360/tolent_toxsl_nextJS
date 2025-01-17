@@ -18,7 +18,7 @@ const IndustriesWeServe = () => {
         <div className="bg-white py-5">
             <div className="container">
                 <div className="text-center py-2">
-                    <h2 className=" py-1 px-3 " style={{ color: "#0D47A1" }} >Industries We Serve</h2>
+                    <h2 className=" py-1 px-3 " style={{ color: "#FFA500" }} >Industries We Serve</h2>
                     <p className="fs-5">We are your technology partner gateway for scalable, responsive and secure solution.</p>
                 </div>
 

@@ -21,7 +21,7 @@ const ChatWithUs = () => {
             >
                 <button
                     className="btn btn-primary d-flex align-items-center shadow"
-                    style={{ borderRadius: "20px", padding: "10px 15px" }}
+                    style={{ borderRadius: "20px", padding: "10px 15px", backgroundColor:"#FFA500" }}
                     onClick={toggleChat}
                 >
                     <i className="bi bi-chat-left-dots-fill" style={{ fontSize: "20px" }}></i>

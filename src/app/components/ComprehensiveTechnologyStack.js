@@ -191,7 +191,7 @@ function ComprehensiveTechnologyStack() {
         <div className="bg-white py-5">
             <div className=" container">
                 <div className="text-center py-2">
-                    <h2 className=" py-1 px-3 " style={{ color: "#0D47A1" }} >Enhance Software Development with a Comprehensive Technology Stack</h2>
+                    <h2 className=" py-1 px-3 " style={{ color: "#FFA500" }} >Enhance Software Development with a Comprehensive Technology Stack</h2>
                     <p className="fs-5">As a leading software development company, we follow agile methods to ensure fast development and solutions that can grow with your needs. Our approach focuses on innovation, allowing us to create custom software that meets your specific requirements while adapting quickly to changes.</p>
                 </div>
 

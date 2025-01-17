@@ -60,7 +60,8 @@ function Home() {
               <div className="col-lg-6 col-md-6 col-12 py-4 ">
                 <p className="fw-bold fs-5">Perfect Blend of Technology & Creativity!</p>
 
-                <h1 className="" style={{ color: "#0D47A1", fontSize: "45px" }}>Web & App<br></br> Development<br></br> Company</h1>
+                {/* style={{ color: "#0D47A1", fontSize: "45px" }}  */}
+                <h1 className="" style={{ color: "#FFA500", fontSize: "45px" }}>Web & App<br></br> Development<br></br> Company</h1>
 
                 <p className="py-4">Being a top app development company, ToXSL offers customized app development solutions based on the latest technology and design methods.</p>
 
@@ -270,7 +271,7 @@ function Home() {
       <div className="background-light-sky py-5">
         <div className=" container">
           <div className="text-center py-3">
-            <h2 className=" py-1 px-3 " style={{ color: "#0D47A1" }} >Accolades And Recognition As A Global Business Leader</h2>
+            <h2 className=" py-1 px-3 " style={{ color: "#FFA500" }} >Accolades And Recognition As A Global Business Leader</h2>
           </div>
 
           {/* row 1  */}
@@ -387,7 +388,7 @@ function Home() {
             <div className="col-md-5 col-12 d-flex align-items-center ">
 
               <div>
-                <h2 className="" style={{ color: "#0D47A1" }}>What Our Clients Say!</h2>
+                <h2 className="" style={{ color: "#FFA500" }}>What Our Clients Say!</h2>
                 <p className="fs-5">Over 2000+ satisfied clients and growing.</p>
               </div>
 
@@ -451,7 +452,7 @@ function Home() {
       <div className="background-light-sky py-5">
         <div className="container my-5">
           <div className="text-center">
-            <h2 className=" py-1 px-3 " style={{ color: "#0D47A1" }} >Our Latest Blogs</h2>
+            <h2 className=" py-1 px-3 " style={{ color: "#FFA500" }} >Our Latest Blogs</h2>
           </div>
           <p className="text-center py-2 fs-5" >Explore our latest tech stories & news.</p>
 
