@@ -31,9 +31,9 @@ function page() {
             <ChatWithUs />
             <div className='mt-5 py-5'>
                 <div className='container py-5'>
-                    <span className='bg-danger px-3 py-2 my-5 text-white'>Android App Development</span>
+                    <span className='bg-danger px-3 py-2 my-5 text-white'>PHP Development</span>
 
-                    <h1 className='py-2'>Cutting-Edge Android App Development <br></br>Services For Your Business</h1>
+                    <h1 className='py-2'>Top-notch PHP Website Development Company</h1>
 
                     <p className='text-strong-blue'>Budding over a decade in the Android App development industry, we are the leading organization known for crafting mobile applications with vigorous code, a user-friendly interface, and a unique UX. Our developers leverage the best and latest Android technologies to develop cutting-edge solutions.</p>
                     <p className='text-strong-blue'>Our team always stands out with you and makes the right twitch to your business logic. Build more reliable, fully functional, and customized solutions as per your business need.</p>
@@ -42,124 +42,124 @@ function page() {
 
                     <div className=" my-5">
 
-                        <h4 className="text-center py-2 " >Explore Our Mobile Development</h4>
+                        <h4 className="text-center py-2 " >Explore Our Web Development</h4>
 
                         <div className="row g-3 mt-4 d-flex flex-wrap">
                             {/* <Slider {...settings}> */}
-                            {/* first */}
-                            <div className="col-md-4 col-12 d-flex ">
-                                <div className="p-3 bg-white shadow d-flex flex-column">
-                                    {/* Image */}
-                                    <img
-                                        src='https://toxsl.com/themes/new/img/works/cross_platform.png'
-                                        alt="Example"
-                                        className="img-fluid mb-3"
+                                {/* first */}
+                                <div className="col-md-4 col-12 d-flex ">
+                                    <div className="p-3 bg-white shadow d-flex flex-column">
+                                        {/* Image */}
+                                        <img
+                                            src='https://toxsl.com/themes/new/img/works/cross_platform.png'
+                                            alt="Example"
+                                            className="img-fluid mb-3"
 
-                                    />
+                                        />
 
-                                    {/* Heading */}
-                                    <h5 className="py-2 mb-2">Android App Development</h5>
+                                        {/* Heading */}
+                                        <h5 className="py-2 mb-2">Android App Development</h5>
 
-                                    {/* Paragraph */}
+                                        {/* Paragraph */}
 
-                                    {/* Button */}
-                                    <div>
-                                        <button className="btn btn-outline-primary px-2 py-2">Read More <OscillatingArrow /> </button>
+                                        {/* Button */}
+                                        <div>
+                                            <button className="btn btn-outline-primary px-2 py-2">Read More <OscillatingArrow /> </button>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
 
-                            {/* second */}
-                            <div className="col-md-4 col-12 d-flex">
-                                <div className="p-3 bg-white shadow d-flex flex-column">
-                                    {/* Image */}
-                                    <img
-                                        src="https://toxsl.com/themes/new/img/works/flutter.png"
-                                        alt="Example"
-                                        className="img-fluid mb-3"
+                                {/* second */}
+                                <div className="col-md-4 col-12 d-flex">
+                                    <div className="p-3 bg-white shadow d-flex flex-column">
+                                        {/* Image */}
+                                        <img
+                                            src="https://toxsl.com/themes/new/img/works/flutter.png"
+                                            alt="Example"
+                                            className="img-fluid mb-3"
 
-                                    />
+                                        />
 
-                                    {/* Heading */}
-                                    <h5 className="py-2 mb-2">Flutter App Development</h5>
+                                        {/* Heading */}
+                                        <h5 className="py-2 mb-2">Flutter App Development</h5>
 
-                                    {/* Paragraph */}
+                                        {/* Paragraph */}
 
-                                    {/* Button */}
-                                    <div>
-                                        <button className="btn btn-outline-primary px-2 py-2">Read More <OscillatingArrow /> </button>
+                                        {/* Button */}
+                                        <div>
+                                            <button className="btn btn-outline-primary px-2 py-2">Read More <OscillatingArrow /> </button>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
 
-                            {/* third */}
-                            <div className="col-md-4 col-12 d-flex ">
-                                <div className="p-3 bg-white shadow d-flex flex-column">
-                                    {/* Image */}
-                                    <img
-                                        src="https://toxsl.com/themes/new/img/works/cross_platform.png"
-                                        alt="Example"
-                                        className="img-fluid mb-3"
+                                {/* third */}
+                                <div className="col-md-4 col-12 d-flex ">
+                                    <div className="p-3 bg-white shadow d-flex flex-column">
+                                        {/* Image */}
+                                        <img
+                                            src="https://toxsl.com/themes/new/img/works/cross_platform.png"
+                                            alt="Example"
+                                            className="img-fluid mb-3"
 
-                                    />
+                                        />
 
-                                    {/* Heading */}
-                                    <h5 className="py-2 mb-2">Cross-Platform App Development</h5>
+                                        {/* Heading */}
+                                        <h5 className="py-2 mb-2">Cross-Platform App Development</h5>
 
-                                    {/* Paragraph */}
+                                        {/* Paragraph */}
 
-                                    {/* Button */}
-                                    <div>
-                                        <button className="btn btn-outline-primary px-2 py-2">Read More <OscillatingArrow /> </button>
+                                        {/* Button */}
+                                        <div>
+                                            <button className="btn btn-outline-primary px-2 py-2">Read More <OscillatingArrow /> </button>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
 
-                            {/* four */}
-                            <div className="col-md-4 col-12 d-flex ">
-                                <div className="p-3 bg-white shadow d-flex flex-column">
-                                    {/* Image */}
-                                    <img
-                                        src="https://toxsl.com/themes/new/img/works/ios_app_development.png"
-                                        alt="Example"
-                                        className="img-fluid mb-3"
+                                {/* four */}
+                                <div className="col-md-4 col-12 d-flex ">
+                                    <div className="p-3 bg-white shadow d-flex flex-column">
+                                        {/* Image */}
+                                        <img
+                                            src="https://toxsl.com/themes/new/img/works/ios_app_development.png"
+                                            alt="Example"
+                                            className="img-fluid mb-3"
 
-                                    />
+                                        />
 
-                                    {/* Heading */}
-                                    <h5 className="py-2 mb-2">iOS App Development</h5>
+                                        {/* Heading */}
+                                        <h5 className="py-2 mb-2">iOS App Development</h5>
 
-                                    {/* Paragraph */}
+                                        {/* Paragraph */}
 
-                                    {/* Button */}
-                                    <div>
-                                        <button className="btn btn-outline-primary px-2 py-2">Read More <OscillatingArrow /> </button>
+                                        {/* Button */}
+                                        <div>
+                                            <button className="btn btn-outline-primary px-2 py-2">Read More <OscillatingArrow /> </button>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
 
-                            {/* five */}
-                            <div className="col-md-4 col-12 d-flex ">
-                                <div className="p-3 bg-white shadow d-flex flex-column">
-                                    {/* Image */}
-                                    <img
-                                        src="https://toxsl.com/themes/new/img/works/argumented_development%20.png"
-                                        alt="Example"
-                                        className="img-fluid mb-3"
+                                {/* five */}
+                                <div className="col-md-4 col-12 d-flex ">
+                                    <div className="p-3 bg-white shadow d-flex flex-column">
+                                        {/* Image */}
+                                        <img
+                                            src="https://toxsl.com/themes/new/img/works/argumented_development%20.png"
+                                            alt="Example"
+                                            className="img-fluid mb-3"
 
-                                    />
+                                        />
 
-                                    {/* Heading */}
-                                    <h5 className="py-2 mb-2">Augmented Reality/VR</h5>
+                                        {/* Heading */}
+                                        <h5 className="py-2 mb-2">Augmented Reality/VR</h5>
 
-                                    {/* Paragraph */}
+                                        {/* Paragraph */}
 
-                                    {/* Button */}
-                                    <div>
-                                        <button className="btn btn-outline-primary px-2 py-2">Read More <OscillatingArrow /> </button>
+                                        {/* Button */}
+                                        <div>
+                                            <button className="btn btn-outline-primary px-2 py-2">Read More <OscillatingArrow /> </button>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
 
                             {/* </Slider> */}
 
@@ -490,20 +490,6 @@ function page() {
                         <p className='py-2'>Android App Development is a process by which applications are created that runs on android devices.</p>
 
                         <hr></hr>
-                    </div>
-
-                </div>
-
-                <div className='container border rounded-3'>
-                    <div className='row rounded'>
-                        <div className='col-md-9 col-12 py-3 px-2 text-white' style={{backgroundColor:"#5f59fd"}}>
-                            <h2 className='p-2'>Are you looking for customized mobile apps for a plethora of industry verticals?</h2>
-                        </div>
-                        <div className='col-md-3 col-12 bg-warning d-flex justify-content-center align-items-center'>
-                            <span>
-                            <button className="btn btn-outline-light px-2 py-2">Hire us!</button>
-                            </span>
-                        </div>
                     </div>
                 </div>
             </div>
