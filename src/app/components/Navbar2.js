@@ -40,13 +40,13 @@ function Navbar2() {
         {
             title: "Services",
             submenu: [
-                { title: "Mobile App Development", link: "/pages/service/mobile-app-development-services" },
-                { title: "Web Development", link: "/pages/service/web-development-services" },
-                { title: "ERP Software Development", link: "/pages/service/erp-software-development" },
-                { title: "Web Design Services", link: "#" },
-                { title: "Web Development Frameworks", link: "#" },
-                { title: "Automated Testing", link: "#" },
-                { title: "Digital Marketing", link: "#" },
+                { title: "Mobile App Development", imageUrl: "https://toxsl.com/themes/new/img/service-icons/MobileAppDevelopmentServices.svg", link: "/pages/service/mobile-app-development-services" },
+                { title: "Web Development", imageUrl: "https://toxsl.com/themes/new/img/service-icons/MobileAppDevelopmentServices.svg", link: "/pages/service/web-development-services" },
+                { title: "ERP Software Development", imageUrl: "https://toxsl.com/themes/new/img/service-icons/MobileAppDevelopmentServices.svg", link: "/pages/service/erp-software-development" },
+                { title: "Web Design Services", imageUrl: "https://toxsl.com/themes/new/img/service-icons/MobileAppDevelopmentServices.svg", link: "#" },
+                { title: "Web Development Frameworks", imageUrl: "https://toxsl.com/themes/new/img/service-icons/MobileAppDevelopmentServices.svg", link: "#" },
+                { title: "Automated Testing", imageUrl: "https://toxsl.com/themes/new/img/service-icons/MobileAppDevelopmentServices.svg", link: "#" },
+                { title: "Digital Marketing", imageUrl: "https://toxsl.com/themes/new/img/service-icons/MobileAppDevelopmentServices.svg", link: "#" },
             ],
         },
         {
