@@ -18,11 +18,39 @@ function page() {
         slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
-        speed: 500,
         autoplaySpeed: 4000,
-        cssEase: "linear"
-
+        cssEase: "linear",
+        responsive: [
+            {
+                breakpoint: 1024, // For devices below 1024px
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true,
+                },
+            },
+            {
+                breakpoint: 768, // For devices below 768px
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true,
+                },
+            },
+            {
+                breakpoint: 480, // For devices below 480px
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true,
+                },
+            },
+        ],
     };
+    
 
     return (
         <>
@@ -45,7 +73,7 @@ function page() {
                         <h4 className="text-center py-2 " >Explore Our Mobile Development</h4>
 
                         <div className="row g-3 mt-4 d-flex flex-wrap">
-                            {/* <Slider {...settings}> */}
+                            <Slider {...settings}>
                             {/* first */}
                             <div className="col-md-4 col-12 d-flex ">
                                 <div className="p-3 bg-white shadow d-flex flex-column">
@@ -161,7 +189,7 @@ function page() {
                                 </div>
                             </div>
 
-                            {/* </Slider> */}
+                            </Slider>
 
                         </div>
                     </div>

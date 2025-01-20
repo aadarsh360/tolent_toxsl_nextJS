@@ -3,7 +3,8 @@ import React from 'react'
 
 function FooterToxsl() {
     return (
-        <footer className="background-dark-blue text-white py-5 rain-container">
+        // background-dark-blue 
+        <footer className=" text-white py-5 rain-container" style={{backgroundColor:"#008000"}}>
             <div className="container">
                 <div className="row">
                     {/* Company Column */}

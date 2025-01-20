@@ -33,7 +33,7 @@ function OurHappyClient() {
         <div className="background-blue-gray py-5">
             <div className=" container">
                 <div className="text-center py-2">
-                    <h2 className=" py-1 px-3 " style={{ color: "#FFA500" }} >Our Happy Clients</h2>
+                    <h2 className=" py-1 px-3 " style={{ color: "#008000" }} >Our Happy Clients</h2>
                     <p className="fs-5">We are result-oriented! We believe in going an extra miles for our clients.</p>
                 </div>
 

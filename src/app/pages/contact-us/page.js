@@ -4,6 +4,7 @@ import Footer from '../../components/Footer'
 import Contact from '../../components/Contact'
 import Navbar2 from '@/app/components/Navbar2'
 import ChatWithUs from '@/app/components/ChatWithUs'
+import FooterToxsl from '@/app/components/FooterToxsl'
 
 function page() {
     return (
@@ -12,7 +13,7 @@ function page() {
 
             <ChatWithUs />
 
-            <div className='background-light-gray py-5'>
+            <div className='background-light-gray mt-5 py-5'>
                 <div className='container pb-5' style={{ backgroundColor: "#E3F2FD" }}>
                     <div className="row">
                         {/* Left Section */}
@@ -69,7 +70,7 @@ function page() {
                     </div>
                 </div>
             </div>
-            <Footer />
+            <FooterToxsl />
         </>
     )
 }
