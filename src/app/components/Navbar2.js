@@ -15,7 +15,7 @@ function Navbar2() {
         },
         {
             name: "Services",
-            url: "/pages/services"
+            url: "/pages/service/mobile-app-development-services"
         },
         {
             name: "Portfolio",
