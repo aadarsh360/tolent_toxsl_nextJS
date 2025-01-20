@@ -2,13 +2,17 @@ import React from 'react'
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
 import Contact from '../../components/Contact'
+import Navbar2 from '@/app/components/Navbar2'
+import ChatWithUs from '@/app/components/ChatWithUs'
 
 function page() {
     return (
         <>
-            <Navbar />
+            <Navbar2/>
 
-            <div className='background-light-gray'>
+            <ChatWithUs />
+
+            <div className='background-light-gray py-5'>
                 <div className='container pb-5' style={{ backgroundColor: "#E3F2FD" }}>
                     <div className="row">
                         {/* Left Section */}

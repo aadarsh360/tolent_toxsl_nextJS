@@ -70,7 +70,9 @@ function Navbar2() {
                         }
                         
                         <li className="nav-item">
+                            <Link className='' href="/pages/contact-us">
                             <button className="border-0 rounded  text-white px-3 py-2" style={{backgroundColor:"#FFA500"}}>Contact Us </button>
+                            </Link>
                         </li>
                     </ul>
 
