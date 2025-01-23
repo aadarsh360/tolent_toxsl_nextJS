@@ -55,7 +55,11 @@ function Navbar2() {
         },
         {
             title: "Careers",
-            link: "#",
+            submenu: [
+                { title: "Job Openings", imageUrl: "https://toxsl.com/themes/new/img/icons/job_offers.png", link: "/pages/carrer" },
+                { title: "Trainings", imageUrl: "https://toxsl.com/themes/new/img/icons/training-c.png", link: "/pages/service/web-development-services" },
+                { title: "Why Join Us", imageUrl: "https://toxsl.com/themes/new/img/icons/lifestyle.svg", link: "/pages/service/erp-software-development" },
+            ],
         }
 
     ];

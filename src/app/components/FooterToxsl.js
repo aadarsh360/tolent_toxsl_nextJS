@@ -11,8 +11,8 @@ function FooterToxsl() {
                     <div className="col-lg-3 col-md-6 col-12 mb-4">
                         <h4>Company</h4>
                         <ul className="list-unstyled">
-                            <li className='py-1 list-item'><a href="#" className="text-white text-decoration-none hover-pink link-hover">About ToXSL</a></li>
-                            <li className='py-1 list-item'><a href="#" className="text-white text-decoration-none hover-pink link-hover">Life At ToXSL</a></li>
+                            <li className='py-1 list-item'><a href="#" className="text-white text-decoration-none hover-pink link-hover">About Dousoft</a></li>
+                            <li className='py-1 list-item'><a href="#" className="text-white text-decoration-none hover-pink link-hover">Life At Dousoft</a></li>
                             <li className='py-1 list-item'><a href="#" className="text-white text-decoration-none hover-pink link-hover">How We Work</a></li>
                             <li className='py-1 list-item'><a href="#" className="text-white text-decoration-none hover-pink link-hover">What Our Clients Say</a></li>
                             <li className='py-1 list-item'><a href="#" className="text-white text-decoration-none hover-pink link-hover">Contact Us</a></li>
@@ -114,7 +114,7 @@ function FooterToxsl() {
                 <hr className="border-light" />
 
 
-                <div className="d-flex flex-wrap align-items-center">
+                <div className="d-flex flex-wrap align-items-center justify-content-between">
                     <div>
                         <p className="mb-0">&copy; 2012 - 2025 <a href="#" className=" text-decoration-none">ToXSL Technologies Pvt Ltd.</a>
                             All rights reserved. Hosted By<br></br>
@@ -122,7 +122,7 @@ function FooterToxsl() {
                         </p>
                     </div>
 
-                    <div className="mt-3">
+                    <div className="mt-3 fs-5">
                         <a href="#" className="text-white me-3"><i className="bi bi-facebook"></i></a>
                         <a href="#" className="text-white me-3"><i className="bi bi-twitter"></i></a>
                         <a href="#" className="text-white me-3"><i className="bi bi-linkedin"></i></a>

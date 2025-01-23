@@ -1,5 +1,8 @@
 // Import React
+import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
+import dousoftLogo8 from '/public/images/dousoftLogo8.png'
 
 // Navbar Component
 const Navbar = () => {
@@ -7,13 +10,15 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-light bg-white">
       <div className="container-fluid container ">
         {/* Left Side: Image */}
-        <a className="navbar-brand" href="#">
-          <img
-            src="https://talent.toxsl.com/themes/toxsl/toxsl/img/toxsl_logo.png"
+        <Link className="navbar-brand " href="/">
+          <Image
+            // src="https://talent.toxsl.com/themes/toxsl/toxsl/img/toxsl_logo.png"
+            src={dousoftLogo8}
             alt="Logo"
-            className="d-inline-block align-text-top"
+            className="d-inline-block align-text-top align-text-center img-fluid "
+            style={{ objectFit: "contain", width: "auto", height: "60px", }}
           />
-        </a>
+        </Link>
 
         {/* Toggle Button for Mobile View */}
         <button

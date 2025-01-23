@@ -19,6 +19,8 @@ import TechGrid from "./components/TechGrid";
 import Navbar2 from "./components/Navbar2";
 import ChatWithUs from "./components/ChatWithUs";
 import Offcanvas from "./components/Offcanvas";
+import WhatsAppChat from "./components/WhatsAppChat";
+import PhoneWhatsAppLogo from "./components/PhoneWhatsAppLogo";
 
 
 
@@ -50,6 +52,8 @@ function Home() {
 
       <Navbar2 />
       <ChatWithUs />
+      {/* <WhatsAppChat /> */}
+      <PhoneWhatsAppLogo />
       {/* <Offcanvas /> */}
 
       <div className="mt-5 mb-5 py-5">
