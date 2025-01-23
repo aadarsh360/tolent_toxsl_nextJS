@@ -21,6 +21,8 @@ import ChatWithUs from "./components/ChatWithUs";
 import Offcanvas from "./components/Offcanvas";
 import WhatsAppChat from "./components/WhatsAppChat";
 import PhoneWhatsAppLogo from "./components/PhoneWhatsAppLogo";
+import heroSectionImage from '/public/images/heroSectionHomePageDousoft.jpeg'
+import dousoftLogo8 from '/public/images/dousoftLogo8.png'
 
 
 
@@ -76,11 +78,13 @@ function Home() {
               </div>
 
               <div className="col-lg-6 col-md-6 col-12">
-                <img
-                  src="https://toxsl.com/themes/new/img/img-banner.webp"
+                <Image
+                  // src="https://toxsl.com/themes/new/img/img-banner.webp"
+                  src={heroSectionImage}
                   alt="Image"
-                  className="card-img-top p-2"
-
+                  // className="card-img-top p-2"
+                  className="d-inline-block align-text-top align-text-center img-fluid "
+                  style={{ objectFit: "contain", width: "auto", height: "500px", }}
                 />
 
               </div>
