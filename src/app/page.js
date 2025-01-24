@@ -23,6 +23,7 @@ import WhatsAppChat from "./components/WhatsAppChat";
 import PhoneWhatsAppLogo from "./components/PhoneWhatsAppLogo";
 import heroSectionImage from '/public/images/heroSectionHomePageDousoft.jpeg'
 import dousoftLogo8 from '/public/images/dousoftLogo8.png'
+import BookAMeeting from "./components/BookAMeeting";
 
 
 

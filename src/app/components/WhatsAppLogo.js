@@ -1,7 +1,7 @@
 import React from 'react';
 
 const WhatsAppLogo = () => {
-  const phoneNumber = '9991896640'; // Your WhatsApp number
+  const phoneNumber = '+919991896640'; // Your WhatsApp number
   const message = 'Hi there! I would like to learn more.'; // Pre-filled message
 
   return (

@@ -1,8 +1,11 @@
+// ====
 import React from 'react'
-import Navbar from '../components/Navbar'
-import YouTubeVideo from '../components/YouTubeVideo'
-import Cards from '../components/Cards'
-import Footer from '../components/Footer'
+import Navbar from '@/app/components/Navbar'
+import YouTubeVideo from '@/app/components/YouTubeVideo'
+import Cards from '@/app/components/Cards'
+import Footer from '@/app/components/Footer'
+
+// ===
 
 function page() {
 
