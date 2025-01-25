@@ -220,8 +220,8 @@ function ComprehensiveTechnologyStack() {
                                 .find((content) => content.id === activeContent)
                                 ?.images.map((image, index) => (
 
-                                    <div key={index} className="col-lg-2 col-2 p-4 text-center" >
-                                        <div className='p-2 border rounded shadow'>
+                                    <div key={index} className="col-lg-2 col-2 p-4 text-center d-flex flex-column" >
+                                        <div className='p-2 border rounded shadow '>
                                             <img
                                                 src={image}
                                                 alt={`Content ${activeContent} Image ${index + 1}`}
