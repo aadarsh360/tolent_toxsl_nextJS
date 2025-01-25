@@ -75,7 +75,7 @@ function Home() {
                 <p className="py-4">Being a top app development company, ToXSL offers customized app development solutions based on the latest technology and design methods.</p>
 
                 {/* Button */}
-                <button className="btn btn-outline-primary px-2 py-2">Contact Us <OscillatingArrow /> </button>
+                <button className="btn btn-outline-success px-2 py-2">Contact Us <OscillatingArrow /> </button>
               </div>
 
               <div className="col-lg-6 col-md-6 col-12">
@@ -102,7 +102,7 @@ function Home() {
                 <p className="py-4">Our custom software development services are designed to meet all of your business needs and assist in promoting business expansion on a global scale.</p>
 
                 {/* Button */}
-                <button className="btn btn-outline-primary px-2 py-2">Contact Us <OscillatingArrow /> </button>
+                <button className="btn btn-outline-success px-2 py-2">Contact Us <OscillatingArrow /> </button>
               </div>
 
               <div className="col-lg-6 col-md-6 col-12">

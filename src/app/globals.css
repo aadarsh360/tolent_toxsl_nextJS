@@ -371,6 +371,7 @@ body.offcanvas-backdrop {
   z-index: 1000;
   padding: 10px;
   min-width: 200px;
+  /* width:"auto"; */
 }
 
 /* Show the menu when hovering over the parent nav item */
