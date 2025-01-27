@@ -4,6 +4,8 @@ import Navbar from '@/app/components/Navbar'
 import YouTubeVideo from '@/app/components/YouTubeVideo'
 import Cards from '@/app/components/Cards'
 import Footer from '@/app/components/Footer'
+import Navbar2 from '@/app/components/Navbar2'
+import FooterToxsl from '@/app/components/FooterToxsl'
 
 // ===
 
@@ -65,10 +67,11 @@ function page() {
 
     return (
         <>
-            <Navbar />
+            {/* <Navbar /> */}
+            <Navbar2 />
 
-            <div className=" p-5 gradient-background-blue-sky " >
-                <div className=" container">
+            <div className=" p-5 mt-5 " style={{background:"linear-gradient(to right, #008000, #FF7518)"}} >
+                <div className=" container mt-5">
                     <div className="row g-3">
                         <div className=" col-lg-6 col-12 py-2 ">
                             <div className="py-5 my-5 ">
@@ -97,9 +100,9 @@ function page() {
             <div className="background-light-gray py-5">
                 <div className="container  my-5">
                     <div className="text-center">
-                        <span className=" py-1 px-3 rounded" style={{ backgroundColor: "#5dade2" }}>Environment</span>
+                        <span className=" py-1 px-3 rounded" style={{ backgroundColor: "#FF7518" }}>Environment</span>
                     </div>
-                    <h2 className="text-center py-2 text-navy" >You want a challenging & <span style={{ color: "#0D47A1" }}>enjoyable work</span> environment, and we want to realize your potential</h2>
+                    <h2 className="text-center py-2 text-success" >You want a challenging & <span style={{ color: "#0D47A1" }}>enjoyable work</span> environment, and we want to realize your potential</h2>
 
                     <p className="py-1">You want to be recognized for your work, and we want you to fulfill your aspirations. Being a performance-oriented organization, we believe that the courage to fulfill vision comes from passion and not position. We strive to be the best at what we do every day by providing a working environment where people can grow professionally and personally. We offer a winning combination of mobile and web development services to help our clients get the most out of our solutions, so they can focus on what they do best.
                     </p>
@@ -122,9 +125,9 @@ function page() {
             <div className=" py-5" style={{ backgroundColor: "#E3F2FD" }}>
                 <div className="container  my-5">
                     <div className="py-2">
-                        <span className=" py-1 px-3 rounded" style={{ backgroundColor: "#5dade2" }}>Why Join Us</span>
+                        <span className=" py-1 px-3 rounded" style={{ backgroundColor: "#FF7518" }}>Why Join Us</span>
                     </div>
-                    <h2 className=" py-1 text-navy" >We Appreciate, Create, and Admire your <span style={{ color: "#0D47A1" }}>Talent</span></h2>
+                    <h2 className=" py-1 text-success" >We Appreciate, Create, and Admire your <span style={{ color: "#0D47A1" }}>Talent</span></h2>
 
                     <div className="row g-1 mt-4 d-flex">
 
@@ -140,7 +143,8 @@ function page() {
 
 
 
-            <Footer />
+            {/* <Footer /> */}
+            <FooterToxsl />
         </>
     )
 }

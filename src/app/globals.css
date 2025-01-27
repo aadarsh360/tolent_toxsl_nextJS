@@ -4,6 +4,15 @@
   padding: 0;
   margin: 0;
 }
+h1, h2, h3, h5, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+p, span{
+  font-family: 'Lato', sans-serif;
+  font-weight: 500; /* Normal */
+}
 
 /* Navbar.css */
 .navbar-nav .nav-item {
@@ -111,7 +120,7 @@
 }
 
 .hover-pink:hover {
-  color: #f43f89  !important; /* Changes the text color to blue on hover */
+  color: #FF7518  !important; /* Changes the text color to blue on hover */
 }
 
 .list-item {
@@ -126,7 +135,7 @@
   right: 0;
   width: 100%;
   height: 2px;
-  background-color: #f43f89;
+  background-color: #FF7518;
   /* transform: translateX(-100%); */
   transition: transform 0.3s ease-in-out;
   transform: scaleX(0); /* Initially hidden (no underline) */

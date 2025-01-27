@@ -3,6 +3,7 @@ import dousoftLogo6 from '/public/images/dousoftLogo6.png'
 import dousoftLogo8 from '/public/images/dousoftLogo8.png'
 import dousoftLogo7 from '/public/images/dousoftLogo7.png'
 import dousoftLogo9 from '/public/images/dousoftLogo9.png'
+import dousoftLogo10 from '/public/images/dousoftLogo10.png'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -33,8 +34,8 @@ function Navbar2() {
             title: "About us",
             submenu: [
                 { title: "About Us", imageUrl: "https://toxsl.com/themes/new/img/service-icons/about_us.png", link: "/pages/about-us" },
-                { title: "Life @ ToXSL", imageUrl: "https://toxsl.com/themes/new/img/service-icons/about_us.png", link: "/pages/about-us" },
-                { title: "Client Reviews", imageUrl: "https://toxsl.com/themes/new/img/service-icons/about_us.png", link: "/pages/about-us" },
+                { title: "Life @ Dousoft", imageUrl: "https://toxsl.com/themes/new/img/service-icons/life_toxsl.png", link: "/pages/about-us" },
+                { title: "Client Reviews", imageUrl: "https://toxsl.com/themes/new/img/service-icons/review.png", link: "/pages/about-us" },
             ],
         },
         {
@@ -77,7 +78,7 @@ function Navbar2() {
             title: "Careers",
             submenu: [
                 { title: "Job Openings", imageUrl: "https://toxsl.com/themes/new/img/icons/job_offers.png", link: "/pages/carrer" },
-                { title: "Trainings", imageUrl: "https://toxsl.com/themes/new/img/icons/training-c.png", link: "/pages/service/web-development-services" },
+                { title: "Trainings", imageUrl: "https://toxsl.com/themes/new/img/icons/training-c.png", link: "/pages/trainings" },
                 { title: "Why Join Us", imageUrl: "https://toxsl.com/themes/new/img/icons/lifestyle.svg", link: "/pages/why-join-us" },
             ],
         }

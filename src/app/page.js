@@ -70,9 +70,9 @@ function Home() {
                 <p className="fw-bold fs-5">Perfect Blend of Technology & Creativity!</p>
 
                 {/* style={{ color: "#0D47A1", fontSize: "45px" }}  */}
-                <h1 className="" style={{ color: "#008000", fontSize: "45px" }}>Web & App<br></br> Development<br></br> Company</h1>
+                <h1 className="" style={{ color: "#008000", fontSize: "45px" }}>Artificial Intelligence<br></br> Development<br></br> Company</h1>
 
-                <p className="py-4">Being a top app development company, ToXSL offers customized app development solutions based on the latest technology and design methods.</p>
+                <p className="py-4">Being a top app development company, Dousoft offers customized app development solutions based on the latest technology and design methods.</p>
 
                 {/* Button */}
                 <button className="btn btn-outline-success px-2 py-2">Contact Us <OscillatingArrow /> </button>

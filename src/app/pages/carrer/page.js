@@ -1,20 +1,23 @@
 import Footer from '@/app/components/Footer'
+import FooterToxsl from '@/app/components/FooterToxsl'
 import Navbar from '@/app/components/Navbar'
+import Navbar2 from '@/app/components/Navbar2'
 import React from 'react'
 
 function page() {
     return (
         <div className="">
 
-            <Navbar />
+            {/* <Navbar /> */}
+            <Navbar2 />
 
             <div className="min-vh-100 ">
                 <div className="container-fluid h-screen">
                     <div className="row">
 
-                        <div className="col-md-1 col-0 bg-primary"></div>
+                        <div className="col-md-1 col-0" style={{backgroundColor:" #FF7518"}}></div>
                         {/* Left Section */}
-                        <div className=" min-vh-100 col-md-5 bg-primary text-white d-flex flex-column justify-content-center py-5 px-3">
+                        <div className=" min-vh-100 col-md-5  text-white d-flex flex-column justify-content-center py-5 px-3" style={{backgroundColor:" #FF7518"}}>
 
                             <div className="">
                                 <h1 className="fw-bold">We are <br /> <span className="" style={{ fontSize: "5rem" }}>Hiring !</span></h1>
@@ -42,7 +45,7 @@ function page() {
                         <div className="col-md-4 d-flex flex-column justify-content-center py-5 px-3" style={{ backgroundColor: "#E3F2FD" }}>
 
                             <div className=" ">
-                                <h2 className="fw-bold text-navy" style={{ fontSize: "3rem" }}>Directly Contact Us !</h2>
+                                <h2 className="fw-bold text-success" style={{ fontSize: "3rem" }}>Directly Contact Us !</h2>
                                 <p className="fs-4">
                                     Want to start your career journey with us? Contact us directly.
                                 </p>
@@ -86,7 +89,7 @@ function page() {
             {/* =================================================================================================================================== */}
             <div className="">
                 <div className="mt-5 mb-5 py-5 container text-center">
-                    <h1 className="text-navy">All Our Offerings at a Glance</h1>
+                    <h1 className="text-success">All Our Offerings at a Glance</h1>
                     <p>Being a global leader in next-generation software services, we ensure that you grow with us.</p>
 
                     <div className="py-2 d-flex flex-wrap justify-content-around">
@@ -159,7 +162,7 @@ function page() {
 
             <div className="" style={{ backgroundColor: "#E3F2FD" }}>
                 <div className="container py-5 ">
-                    <h1 className="text-navy text-center">Unlock Your Potential with jiTalent</h1>
+                    <h1 className="text-success text-center">Unlock Your Potential with jiTalent</h1>
                     <p className="text-center fs-5">Are you tired of feeling stuck in your career? Do you want to unlock your full potential and<br></br> achieve your goals? jiTalent is here to help.</p>
 
                     <div className="d-flex flex-wrap justify-content-evenly py-5" style={{ backgroundColor: "#E3F2FD" }}>
@@ -399,7 +402,7 @@ function page() {
                         {/* Right Side: Heading and Paragraph */}
                         <div className="col-md-6 col-12">
                             <div>
-                                <h1 className="mb-3" style={{ color: "#0D47A1" }}>Why Choose Us</h1>
+                                <h1 className="mb-3 text-success">Why Choose Us</h1>
                                 <p style={{ color: "#555" }}>
                                     We promise you an inclusive work environment where you'll embrace challenges and thrive in overcoming them.
                                 </p>
@@ -414,11 +417,11 @@ function page() {
                                         <img
                                             src="https://talent.toxsl.com/themes/toxsl/img/work-icon.jpg"
                                             alt="Example"
-                                            className="border rounded-circle"
+                                            className="border rounded-circle "
                                         />
                                     </div>
                                     <div className="px-2">
-                                        <h5 className="my-0" style={{ color: "#0D47A1" }}>Diverse Training Domains</h5>
+                                        <h5 className="my-0 text-success">Diverse Training Domains</h5>
                                         <p>We offer training in various domains such as artificial intelligence, Android, iOS, PHP, software testing, and web design. </p>
                                     </div>
                                 </div>
@@ -436,7 +439,7 @@ function page() {
                                         />
                                     </div>
                                     <div className="px-2">
-                                        <h5 className="my-0" style={{ color: "#0D47A1" }}>Focus on Practical Skills</h5>
+                                        <h5 className="my-0 text-success" >Focus on Practical Skills</h5>
                                         <p>We focus on real-world applications and live projects, helping candidates to build practical skills.</p>
                                     </div>
                                 </div>
@@ -454,7 +457,7 @@ function page() {
                                         />
                                     </div>
                                     <div className="px-2">
-                                        <h5 className="my-0" style={{ color: "#0D47A1" }}>Continuous Learning Opportunities</h5>
+                                        <h5 className="my-0 text-success" >Continuous Learning Opportunities</h5>
                                         <p>We foster a positive work atmosphere with supportive staff who are willing to help whenever needed.</p>
                                     </div>
                                 </div>
@@ -467,7 +470,7 @@ function page() {
 
             {/* ================================================================================================================= */}
             <div className="py-5">
-                <div className="container border border-primary rounded-5 my-5 p-3 bg-primary">
+                <div className="container border border-warning rounded-5 my-5 p-3" style={{backgroundColor:"#FF7518"}}>
                     <div className="row ">
                         {/* left */}
                         <div className="col-md-6 col-12">
@@ -551,9 +554,9 @@ function page() {
             <div className="background-light-gray py-5">
                 <div className="container my-5">
                     <div className="text-center">
-                        <span className=" py-1 px-3 rounded" style={{ backgroundColor: "#5dade2" }}>OUR LATEST BLOGS</span>
+                        <span className=" py-1 px-3 rounded" style={{ backgroundColor: "#FF7518" }}>OUR LATEST BLOGS</span>
                     </div>
-                    <h2 className="text-center py-2" style={{ color: "#0D47A1" }}>Explore Our Latest Career & News</h2>
+                    <h2 className="text-center py-2 text-success">Explore Our Latest Career & News</h2>
 
                     <div className="row g-3 mt-4">
 
@@ -569,7 +572,7 @@ function page() {
                                 />
 
                                 {/* Heading */}
-                                <h4 className="text-primary mb-2">Transform Your App Development Skills with React Native Training in Mohali</h4>
+                                <h4 className="text-success mb-2">Transform Your App Development Skills with React Native Training in Mohali</h4>
 
                                 {/* Paragraph */}
                                 <p className="text-muted">
@@ -577,7 +580,7 @@ function page() {
                                 </p>
 
                                 {/* Button */}
-                                <button className="btn btn-outline-primary px-2 py-2">Read More</button>
+                                <button className="btn btn-outline-success px-2 py-2">Read More</button>
                             </div>
                         </div>
 
@@ -593,13 +596,13 @@ function page() {
                                 />
 
                                 {/* Heading */}
-                                <h4 className="text-primary mb-2">Kickstart Your Career with Professional Web Designing Training in Mohali</h4>
+                                <h4 className="text-success mb-2">Kickstart Your Career with Professional Web Designing Training in Mohali</h4>
 
                                 {/* Paragraph */}
                                 <p className="text-muted">In the modern digital age, having a website is crucial for businessesand individuals alike. With the world becoming increasingly digital,a well-designed website plays a pivotal role in creating...</p>
 
                                 {/* Button */}
-                                <button className="btn btn-outline-primary px-2 py-2">Read More</button>
+                                <button className="btn btn-outline-success px-2 py-2">Read More</button>
                             </div>
                         </div>
 
@@ -615,13 +618,13 @@ function page() {
                                 />
 
                                 {/* Heading */}
-                                <h4 className="text-primary mb-2">Top Reasons to Choose Java Training in Mohali for a Successful Career</h4>
+                                <h4 className="text-success mb-2">Top Reasons to Choose Java Training in Mohali for a Successful Career</h4>
 
                                 {/* Paragraph */}
                                 <p className="text-muted">Java is one of the most powerful, versatile, and widely used programming languages in the world today. It is at the core of many industries, from finance to healthcare, from mobile apps to...</p>
 
                                 {/* Button */}
-                                <button className="btn btn-outline-primary px-2 py-2">Read More</button>
+                                <button className="btn btn-outline-success px-2 py-2">Read More</button>
                             </div>
                         </div>
 
@@ -630,7 +633,8 @@ function page() {
             </div>
             {/* ======================================================================================================================= */}
 
-            <Footer />
+            {/* <Footer /> */}
+            <FooterToxsl />
 
         </div>
     )

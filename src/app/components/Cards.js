@@ -16,7 +16,7 @@ function Cards(props) {
                 />
 
                 {/* Heading */}
-                <h4 className="text-navy mb-2">{description}</h4>
+                <h4 className="text-success mb-2">{description}</h4>
 
                 {/* Paragraph */}
                 <p className="text-muted">{message}</p>
