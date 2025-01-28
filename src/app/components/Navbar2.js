@@ -1,3 +1,4 @@
+"use client"
 import React, { useEffect, useState } from 'react'
 import dousoftLogo6 from '/public/images/dousoftLogo6.png'
 import dousoftLogo8 from '/public/images/dousoftLogo8.png'
