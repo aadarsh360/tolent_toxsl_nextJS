@@ -24,6 +24,9 @@ import PhoneWhatsAppLogo from "./components/PhoneWhatsAppLogo";
 import heroSectionImage from '/public/images/heroSectionHomePageDousoft.jpeg'
 import dousoftLogo8 from '/public/images/dousoftLogo8.png'
 import BookAMeeting from "./components/BookAMeeting";
+import TechnologiesWeMaster from "./components/TechnologiesWeMaster";
+import AgileDevelopmentProcess from "./components/AgileDevelopmentProcess";
+import Link from "next/link";
 
 
 
@@ -61,7 +64,7 @@ function Home() {
 
       <div className="mt-5 mb-5 py-5">
         <div className="container py-5">
-          
+
           <Slider {...settings}>
             {/* first row  */}
             <div className="row d-flex">
@@ -70,7 +73,7 @@ function Home() {
                 <p className="fw-bold fs-5">Perfect Blend of Technology & Creativity!</p>
 
                 {/* style={{ color: "#0D47A1", fontSize: "45px" }}  */}
-                <h1 className="" style={{ color: "#008000", fontSize: "45px" }}>Artificial Intelligence<br></br> Development<br></br> Company</h1>
+                <h1 className="" style={{ color: "#008000", fontSize: "50px" }}>Artificial Intelligence<br></br> Development<br></br> Company</h1>
 
                 <p className="py-4">Being a top app development company, Dousoft offers customized app development solutions based on the latest technology and design methods.</p>
 
@@ -78,7 +81,7 @@ function Home() {
                 <button className="btn btn-outline-success px-2 py-2">Contact Us <OscillatingArrow /> </button>
               </div>
 
-              <div className="col-lg-6 col-md-6 col-12">
+              <div className="col-lg-6 col-md-6 col-12 position-relative">
                 <Image
                   // src="https://toxsl.com/themes/new/img/img-banner.webp"
                   src={heroSectionImage}
@@ -87,6 +90,32 @@ function Home() {
                   className="d-inline-block align-text-top align-text-center img-fluid "
                   style={{ objectFit: "contain", width: "auto", height: "500px", }}
                 />
+
+                {/* ------------------------move up down------------------------------- */}
+
+                {/* Centered Div */}
+                <Link href={"/pages/service/web-development-services"}>
+                  {/* top-50 start-50 translate-middle  */}
+                  <div className="position-absolute text-white px-4 py-2 rounded animated-move1"
+                    // style={{ transform: "translate(50%, -150%)" }}
+                    style={{ bottom: "140px", left: "50px", backgroundColor:"#008000"}} // Moves up by 150px
+                  >
+                    Artificial Intelligence
+                  </div>
+                </Link>
+
+                {/* Top Positioned Div */}
+                <Link href={"/pages/service/mobile-app-development-services"}>
+                  {/* top-0 end-0 translate-middle-x  */}
+                  <div className="position-absolute text-white px-4 py-2 rounded animated-move2"
+                    // style={{ transform: "translate(-120%, 300%)" }}
+                    style={{ top: "140px", right: "50px", backgroundColor: "#FF7518" }} // Moves up by 150px
+                  >
+                    App Development
+                  </div>
+                </Link>
+
+                {/* ------------------------------------------------------------------- */}
 
               </div>
 
@@ -97,7 +126,7 @@ function Home() {
               <div className="col-lg-6 col-md-6 col-12 py-4 ">
                 <p className="fw-bold fs-5">Delivering Success In Every Solution!</p>
 
-                <h1 className="" style={{ color: "#008000", fontSize: "45px" }}>Custom Software<br></br> Development<br></br> Company</h1>
+                <h1 className="" style={{ color: "#008000", fontSize: "50px" }}>Custom Software<br></br> Development<br></br> Company</h1>
 
                 <p className="py-4">Our custom software development services are designed to meet all of your business needs and assist in promoting business expansion on a global scale.</p>
 
@@ -105,13 +134,41 @@ function Home() {
                 <button className="btn btn-outline-success px-2 py-2">Contact Us <OscillatingArrow /> </button>
               </div>
 
-              <div className="col-lg-6 col-md-6 col-12">
+              <div className="col-lg-6 col-md-6 col-12 position-relative">
                 <img
                   src="https://toxsl.com/themes/new/img/softwaredv.webp"
                   alt="Image"
                   className="card-img-top p-2"
 
                 />
+
+                {/* ------------------------move up down------------------------------- */}
+
+
+                {/* Centered Div */}
+                <Link href={"/pages/service/web-development-services"}>
+                  {/* top-50 start-50 translate-middle  */}
+                  <div className="position-absolute text-white px-4 py-2 rounded animated-move1"
+                    // style={{ transform: "translate(50%, -150%)" }}
+                    style={{ bottom: "140px", left: "50px", backgroundColor:"#008000" }} // Moves up by 150px
+                  >
+                    Website Development
+                  </div>
+                </Link>
+
+                {/* Top Positioned Div */}
+                <Link href={"/pages/service/erp-software-development"}>
+                  {/* top-0 end-0 translate-middle-x  */}
+                  <div className="position-absolute text-white px-4 py-2 rounded animated-move2"
+                    // style={{ transform: "translate(-120%, 300%)" }}
+                    style={{ top: "140px", right: "50px", backgroundColor: "#FF7518" }} // Moves up by 150px
+                  >
+                    ERP Solutions
+                  </div>
+                </Link>
+
+                {/* ------------------------------------------------------------------- */}
+
               </div>
 
             </div>
@@ -270,10 +327,14 @@ function Home() {
       </div>
       {/* ========================================================================================================================= */}
 
+      {/* <TechnologiesWeMaster /> */}
       {/* ==================================================================================================================== */}
       <ServicesWeOffer />
       {/* ======================================================================================================================== */}
 
+      {/* <AgileDevelopmentProcess /> */}
+
+      {/* =================================================================================================================================== */}
       <IndustriesWeServe />
 
       {/* =========================================================================================================================== */}
@@ -389,11 +450,11 @@ function Home() {
       </div>
 
       {/* ================================================================================================================ */}
-      <OurHappyClient />
+      {/* <OurHappyClient /> */}
 
       {/* ============================================================================================================== */}
 
-      <div className="background-blue-gray py-5">
+      {/* <div className="background-blue-gray py-5">
         <div className="container">
           <div className="row">
             <div className="col-md-5 col-12 d-flex align-items-center ">
@@ -458,7 +519,7 @@ function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* =========================================================================================================================== */}
       <div className="background-light-sky py-5">
         <div className="container my-5">

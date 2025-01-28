@@ -4,6 +4,11 @@
   padding: 0;
   margin: 0;
 }
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+}
 h1, h2, h3, h5, h5, h6 {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
@@ -191,6 +196,44 @@ p, span{
     opacity: 0; /* Disappear as it falls */
   }
 }
+
+
+/* home page hero section animation up down move start  */
+@keyframes moveUpDown1 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-18px); /* Moves up slightly */
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animated-move1 {
+  animation: moveUpDown1 3s ease-in-out infinite; /* Slow smooth motion */
+}
+
+@keyframes moveUpDown2 {
+  0% {
+    transform: translateY(-18px);
+  }
+  50% {
+    transform: translateY(0); /* Moves up slightly */
+  }
+  100% {
+    transform: translateY(-18px);
+  }
+}
+
+.animated-move2 {
+  animation: moveUpDown2 3s ease-in-out infinite; /* Slow smooth motion */
+}
+
+ /* home page hero section animation up down move end  */
+
+
 
 /* move div up and down start */
 .outer-container {
@@ -529,6 +572,229 @@ body.offcanvas-backdrop {
 
 /* business model css feature card end  */
 
+
+ /* Technologies we master css start  */
+ .hex-grid {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  justify-content: center;
+  position: relative;
+}
+
+.hex-row {
+  display: flex;
+  justify-content: center;
+  margin-top: -30px;
+  flex-wrap: wrap;
+}
+
+.hex-row:first-child {
+  margin-top: 0;
+}
+
+.hex-item {
+  position: relative;
+  width: 150px;
+  height: 173.21px;
+  background-color: white;
+  margin: 0 8px;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.hex-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.hex-content {
+  text-align: center;
+  padding: 20px;
+}
+
+.tech-image {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.tech-name {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 5px 0;
+  color: #333;
+}
+
+/* h1 {
+  text-align: center;
+  color: #333;
+  margin: 40px 0;
+  font-size: 2.5rem;
+} */
+
+@media (max-width: 1200px) {
+  .hex-item {
+      width: 130px;
+      height: 150px;
+      margin: 0 6px;
+  }
+  
+  .hex-row {
+      margin-top: -25px;
+  }
+}
+
+@media (max-width: 992px) {
+  .hex-item {
+      width: 110px;
+      height: 127px;
+      margin: 0 5px;
+  }
+
+  .tech-image {
+      width: 45px;
+      height: 45px;
+  }
+
+  .tech-name {
+      font-size: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hex-grid {
+      padding: 10px;
+  }
+
+  .hex-row {
+      margin-top: -20px;
+  }
+
+  .hex-item {
+      width: 90px;
+      height: 104px;
+      margin: 0 4px;
+  }
+
+  .tech-image {
+      width: 35px;
+      height: 35px;
+      margin-bottom: 5px;
+  }
+
+  .tech-name {
+      font-size: 10px;
+  }
+}
+
+  /* Technologies we master css end  */
+
+
+  .process-wheel {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .process-segment {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    padding: 15px;
+    transform-origin: bottom right;
+    text-align: center;
+    color: #333;
+  }
+  
+  .segment-1 {
+    transform: rotate(0deg) translateX(50%);
+  }
+  .segment-2 {
+    transform: rotate(60deg) translateX(50%);
+  }
+  .segment-3 {
+    transform: rotate(120deg) translateX(50%);
+  }
+  .segment-4 {
+    transform: rotate(180deg) translateX(50%);
+  }
+  .segment-5 {
+    transform: rotate(240deg) translateX(50%);
+  }
+  .segment-6 {
+    transform: rotate(300deg) translateX(50%);
+  }
+  
+  .process-number {
+    font-size: 1.5rem;
+    color: #ffffff;
+    background: #6366f1;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .process-center-circle {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.2rem;
+    color: #333;
+    text-align: center;
+  }
+  
+
+
+  /* services we offer css start  */
+  .services-we-offer-card-custom {
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+.services-we-offer-card-custom:hover {
+    transform: translateY(-5px);
+    background-color: #008000;
+    color: white;
+}
+
+.services-we-offer-card-custom:hover p {
+    color: white;
+}
+
+.services-we-offer-card-custom:hover h4 {
+    /* color: white; */
+    color: #008000;
+}
+.services-we-offer-card-custom:hover a{
+  text-decoration: underline !important;
+}
+
+
+.services-we-offer-card-custom:hover .card-icon {
+    background-color: white !important;
+}
+
+
+  /* services we offer css end  */
 
 
 
