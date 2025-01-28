@@ -213,7 +213,39 @@ p, span{
 
 .animated-move1 {
   animation: moveUpDown1 3s ease-in-out infinite; /* Slow smooth motion */
+  position: absolute;
+  bottom: 140px;
+  left: 50px; /* Default for large screens */
+  background-color: #008000;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
 }
+/* .animated-move1 {
+  position: absolute;
+  bottom: 140px;
+  left: 50px; 
+  background-color: #008000;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+} */
+
+/* On small screens (max-width: 768px), set left to 0px */
+@media (max-width: 768px) {
+  .animated-move1 {
+    animation: moveUpDown1 3s ease-in-out infinite; /* Slow smooth motion */
+    position: absolute;
+    bottom: 140px;
+    left: 10px; /* Default for large screens */
+    background-color: #008000;
+    color: white;
+    /* padding: 8px 16px; */
+    padding: 2px 4px;
+    border-radius: 4px;
+  }
+}
+
 
 @keyframes moveUpDown2 {
   0% {
@@ -229,13 +261,34 @@ p, span{
 
 .animated-move2 {
   animation: moveUpDown2 3s ease-in-out infinite; /* Slow smooth motion */
+  position: absolute;
+  top: 140px;
+  right: 50px; /* Default for large screens */
+  background-color: #FF7518;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+/* On small screens (max-width: 768px), set left to 0px */
+@media (max-width: 768px) {
+  .animated-move2 {
+    animation: moveUpDown2 3s ease-in-out infinite; /* Slow smooth motion */
+    position: absolute;
+    top: 140px;
+    right: 10px; /* Default for large screens */
+    background-color: #FF7518;
+    color: white;
+    /* padding: 8px 16px; */
+    padding: 2px 4px;
+    border-radius: 4px;
+  }
 }
 
  /* home page hero section animation up down move end  */
 
 
-
 /* move div up and down start */
+
 .outer-container {
   position: relative; /* Position relative for animation */
   animation: moveUpDown 3s ease-in-out infinite; /* Animation applied */

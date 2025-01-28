@@ -96,9 +96,9 @@ function Home() {
                 {/* Centered Div */}
                 <Link href={"/pages/service/web-development-services"}>
                   {/* top-50 start-50 translate-middle  */}
-                  <div className="position-absolute text-white px-4 py-2 rounded animated-move1"
+                  <div className="position-absolute text-white  rounded animated-move1"
                     // style={{ transform: "translate(50%, -150%)" }}
-                    style={{ bottom: "140px", left: "50px", backgroundColor:"#008000"}} // Moves up by 150px
+                    // style={{ bottom: "140px", left: "50px", backgroundColor:"#008000"}} // Moves up by 150px
                   >
                     Artificial Intelligence
                   </div>
@@ -107,9 +107,9 @@ function Home() {
                 {/* Top Positioned Div */}
                 <Link href={"/pages/service/mobile-app-development-services"}>
                   {/* top-0 end-0 translate-middle-x  */}
-                  <div className="position-absolute text-white px-4 py-2 rounded animated-move2"
+                  <div className="position-absolute text-white  rounded animated-move2"
                     // style={{ transform: "translate(-120%, 300%)" }}
-                    style={{ top: "140px", right: "50px", backgroundColor: "#FF7518" }} // Moves up by 150px
+                    // style={{ top: "140px", right: "50px", backgroundColor: "#FF7518" }} // Moves up by 150px
                   >
                     App Development
                   </div>
@@ -148,9 +148,9 @@ function Home() {
                 {/* Centered Div */}
                 <Link href={"/pages/service/web-development-services"}>
                   {/* top-50 start-50 translate-middle  */}
-                  <div className="position-absolute text-white px-4 py-2 rounded animated-move1"
+                  <div className="position-absolute text-white  rounded animated-move1"
                     // style={{ transform: "translate(50%, -150%)" }}
-                    style={{ bottom: "140px", left: "50px", backgroundColor:"#008000" }} // Moves up by 150px
+                    // style={{ bottom: "140px", left: "50px", backgroundColor:"#008000" }} // Moves up by 150px
                   >
                     Website Development
                   </div>
@@ -159,9 +159,9 @@ function Home() {
                 {/* Top Positioned Div */}
                 <Link href={"/pages/service/erp-software-development"}>
                   {/* top-0 end-0 translate-middle-x  */}
-                  <div className="position-absolute text-white px-4 py-2 rounded animated-move2"
+                  <div className="position-absolute text-white rounded animated-move2"
                     // style={{ transform: "translate(-120%, 300%)" }}
-                    style={{ top: "140px", right: "50px", backgroundColor: "#FF7518" }} // Moves up by 150px
+                    // style={{ top: "140px", right: "50px", backgroundColor: "#FF7518" }} // Moves up by 150px
                   >
                     ERP Solutions
                   </div>
