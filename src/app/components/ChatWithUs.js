@@ -48,7 +48,7 @@ const ChatWithUs = () => {
                 >
                     {/* Chat Header */}
                     <div
-                        className="bg-primary text-white d-flex justify-content-between align-items-center p-3"
+                        className="bg-success text-white d-flex justify-content-between align-items-center p-3"
                         style={{ borderTopLeftRadius: "15px", borderTopRightRadius: "15px" }}
                     >
                         <span>Chat</span>
@@ -73,12 +73,15 @@ const ChatWithUs = () => {
                     </div>
 
                     {/* Chat Input */}
-                    <div className="p-3 border-top">
+                    <div className="p-3 border-top d-flex">
                         <input
                             type="text"
                             className="form-control"
                             placeholder="Type your message..."
                         />
+                        <div className="mx-1 px-2 bg-primary rounded d-flex align-items-center">
+                        <i className="bi bi-send text-white"></i>
+                        </div>
                     </div>
                 </div>
             )}

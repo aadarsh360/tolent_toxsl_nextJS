@@ -384,9 +384,9 @@ function TechnologiesWeMaster() {
     const thirdRow = technologies.slice(11, 17);
 
     return (
-        <div className='my-5'>
+        <div className='my-5 py-4'>
             <div className='container '>
-                <h1 className='text-success text-center py-2'>Technologies We Master</h1>
+                <h1 className='text-success text-center py-3'>Technologies We Master</h1>
                 <div className="hex-grid ">
                     <div className="hex-row">
                         {firstRow.map((tech, index) => (

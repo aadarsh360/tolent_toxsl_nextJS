@@ -15,7 +15,8 @@ const WhatsAppLogo = () => {
           left: '0px', // Adjust as needed
           top: '50%',
           transform: 'translateY(-50%)',
-          zIndex: 9999,
+          // zIndex: 9999,
+          zIndex: 1000,
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',

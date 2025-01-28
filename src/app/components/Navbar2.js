@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import dousoftLogo6 from '/public/images/dousoftLogo6.png'
 import dousoftLogo8 from '/public/images/dousoftLogo8.png'
 import dousoftLogo7 from '/public/images/dousoftLogo7.png'
@@ -8,6 +8,18 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 function Navbar2() {
+
+    const [showHiring, setShowHiring] = useState(true);
+
+    // Toggle the hiring message every second
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setShowHiring((prev) => !prev);
+        }, 1000);
+
+        return () => clearInterval(interval);
+    }, []);
+
 
     // const navItems = [
     //     {
@@ -153,6 +165,16 @@ function Navbar2() {
                                 className={`nav-item ${item.submenu ? "position-relative" : ""}`}
                                 key={index}
                             >
+                                {/* Show hiring message above Careers */}
+                                {item.title === "Careers" && (
+                                    // d-none d-lg-block 
+                                    <div className={`hiring-message ${showHiring ? "visible" : "hidden"}  position-absolute px-2 py-1 rounded-4`}
+                                    style={{top:"-10px", backgroundColor:"#008000"}}
+                                    >
+                                         We Are Hiring
+                                    </div>
+                                )}
+
                                 <a className="nav-link" href={item.link || "#"}>
                                     {item?.title}<i className="bi bi-chevron-down px-1" style={{fontSize:"12px"}}></i>
                                 </a>
@@ -167,7 +189,7 @@ function Navbar2() {
                                             >
                                                 <div className=''>
                                                     <img src={subitem?.imageUrl} alt='Image' className='img-fluid p-1'
-                                                        style={{ objectFit: "contain", width: "auto", height: "30px", }} />   {subitem?.title}
+                                                        style={{ objectFit: "contain", width: "auto", height: "30px", }} /> <span className='px-1'>{subitem?.title}</span>
                                                 </div>
                                             </Link>
                                         ))}

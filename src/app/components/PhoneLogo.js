@@ -16,7 +16,8 @@ const PhoneLogo = () => {
           left: '0px', // Adjust for positioning
           top: '44%',
           transform: 'translateY(-50%)',
-          zIndex: 9999,
+          // zIndex: 9999,
+          zIndex: 1000,
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
