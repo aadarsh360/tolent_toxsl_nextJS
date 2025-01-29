@@ -102,6 +102,7 @@ const AgileDevelopmentProcess = () => {
   // );
 
   return (
+    <div className="background-light-sky py-5">
     <div className="container my-5">
       <div className="row align-items-center">
         {/* Left Section */}
@@ -128,8 +129,7 @@ const AgileDevelopmentProcess = () => {
 
         {/* Right Section */}
         <div className="col-md-7 text-center position-relative">
-          <h3 className="fw-bold mb-4">Our Process</h3>
-          <div className="process-wheel">
+          {/* <div className="process-wheel">
             {processes.map((process, index) => (
               <div
                 key={index}
@@ -145,80 +145,35 @@ const AgileDevelopmentProcess = () => {
             <div className="process-center-circle d-flex align-items-center justify-content-center">
               <span className="fw-bold">Our Process</span>
             </div>
+          </div> */}
+
+          <div className="d-flex justify-content-center align-items-center  position-relative">
+      {/* Circle */}
+      <div className="circle2 d-flex justify-content-center align-items-center">Our Process</div>
+
+      {/* Triangles with Headings & Paragraphs */}
+      <div className="triangle-container ">
+        {[
+          { title: "Customer Satisfaction", text: "We follow a customer-centric approach, ensuring that the final product meets our customer’s expectations." },
+          { title: "Team Collaboration", text: "We follow a customer-centric approach, ensuring that the final product meets our customer’s expectations." },
+          { title: "Faster Time-to-Market", text: "We follow a customer-centric approach, ensuring that the final product meets our customer’s expectations." },
+          { title: "Cost Efficiency", text: "We follow a customer-centric approach, ensuring that the final product meets our customer’s expectations." },
+          { title: "Enhanced Flexiblity", text: "We follow a customer-centric approach, ensuring that the final product meets our customer’s expectations." },
+          { title: "High Quality", text: "We follow a customer-centric approach, ensuring that the final product meets our customer’s expectations." },
+        ].map((item, index) => (
+          <div key={index} className={`triangle triangle-${index + 1} `}>
+            <h5 className="triangle-text1 text-black px-2">{item.title}</h5>
+            <p className="triangle-text2 text-black">{item.text}</p>
           </div>
+        ))}
+      </div>
+    </div>
+
         </div>
       </div>
+    </div>
     </div>
   );
 };
 
 export default AgileDevelopmentProcess;
-
-
-<div className="container">
-  <section className="hero-section">
-    <h1 className="hero-title">
-      Reshape Your Business With Our Agile Development Process
-    </h1>
-
-    <div className="agile-diagram">
-      <div className="agile-circle">
-        <span className="agile-text">AGILE</span>
-      </div>
-      {/* Arrows would be added as background SVG in a production environment */}
-    </div>
-
-    <div className="hero-subtitle">
-      Become the next big thing by implementing our robust Agile development process.
-    </div>
-
-    <div className="process-wheel">
-      <div className="process-center">
-        <h3>Our<br />Process</h3>
-      </div>
-
-      <div className="row">
-        {[
-          {
-            number: "01",
-            title: "Customer Satisfaction",
-            description: "We follow a customer-centric approach, ensuring that the final product meets our customer's expectations."
-          },
-          {
-            number: "02",
-            title: "Team Collaboration",
-            description: "We promote teamwork and collaboration, maintaining transparency with customers by keeping them informed."
-          },
-          {
-            number: "03",
-            title: "Faster Time-to-Market",
-            description: "By breaking down the development process into smaller iterations, customers can respond quickly to changes."
-          },
-          {
-            number: "04",
-            title: "Cost Efficiency",
-            description: "We focus on delivering value early and frequently, allowing businesses to prioritize features based on their ROI."
-          },
-          {
-            number: "05",
-            title: "Enhanced Flexibility",
-            description: "Our solutions enable businesses to adapt to changing requirements during development."
-          },
-          {
-            number: "06",
-            title: "High Quality",
-            description: "We emphasize continuous testing and feedback, ensuring quality is built into the product from the start."
-          }
-        ].map((item, index) => (
-          <div key={index} className="col-md-6 col-lg-4">
-            <div className="process-item">
-              <div className="process-number">{item.number}</div>
-              <h4 className="process-title">{item.title}</h4>
-              <p className="process-description">{item.description}</p>
-            </div>
-          </div>
-        ))}
-      </div>
-    </div>
-  </section>
-</div>
