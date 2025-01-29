@@ -834,14 +834,19 @@ body.offcanvas-backdrop {
     text-align: center;
   }
 
+
+  /* Agile Development Process css start  */
   .circle2 {
-    width: 100px;
-    height: 100px;
-    background-color: #008000;
-    color: white;
+    width: 110px;
+    height: 110px;
+    background-color: white;
+    color: #008000;
+    font-weight: bold;
     border-radius: 50%;
     position: absolute;
     z-index: 999;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5)); /* Shadow effect */
+
   }
   
   .triangle-container {
@@ -862,9 +867,17 @@ body.offcanvas-backdrop {
 
     position: absolute;
     text-align: center;
+    transition: border-bottom-color 0.4s ease-in-out, transform 0.4s ease-in-out; /* Smooth transition */
+    
   }
+  /* Hover Effect - Change Background Color */
+.triangle:hover {
+  border-bottom-color: #FF7518; /* New color on hover */
+  /* transform: scale(0.1);  */
+}
+
   
-  .triangle-text1 {
+  .triangle-heading-text1, .triangle-heading-text2 {
     position: absolute;
   /* top: 50%;
   left: 50%; */
@@ -876,9 +889,9 @@ body.offcanvas-backdrop {
   font-weight: bold;
   text-align: center;
   }
-  .triangle-text2 {
+  .triangle-paragraph-text1, .triangle-paragraph-text2 {
     position: absolute;
-    min-width: 155px;
+    min-width: 140px;
     height: auto;
   /* top: 50%;
   left: 50%; */
@@ -887,20 +900,200 @@ body.offcanvas-backdrop {
   transform: translate(-50%, -50%) rotate(180deg);
   color: white;
   font-size: 12px;
+  /* font-weight: bold; */
+  text-align: center;
+  }
+  .triangle-number1{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50% 50% 30% 30%; 
+    background-color: #df4036;
+    top: 70px;
+    transform: translate(-50%, -50%) rotate(180deg);
+  color: white;
+  font-size: 36px;
   font-weight: bold;
+  text-align: center;
+  }
+  .triangle-number2{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50% 50% 30% 30%; 
+    background-color: #cc0acf ;
+    top: 70px;
+    transform: translate(-50%, -50%) rotate(180deg);
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  }
+  .triangle-number3{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50% 50% 30% 30%; 
+    background-color: #0a25cf;
+    top: 70px;
+    transform: translate(-50%, -50%) rotate(180deg);
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  }
+  .triangle-number4{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50% 50% 30% 30%; 
+    background-color: #00cec8;
+    top: 70px;
+    transform: translate(-50%, -50%) rotate(180deg);
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  }
+  .triangle-number5{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50% 50% 30% 30%; 
+    background-color: #ff13f0;
+    top: 70px;
+    transform: translate(-50%, -50%) rotate(180deg);
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  }
+  .triangle-number6{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50% 50% 30% 30%; 
+    background-color: #8713c1;
+    top: 70px;
+    transform: translate(-50%, -50%) rotate(180deg);
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  }
+
+
+  .triangle-heading-text3 {
+    position: absolute;
+  /* top: 50%;
+  left: 50%; */
+  top: 220px;
+  left: 50px;
+  /* bottom: 300px; */
+  transform: translate(-50%, -50%) rotate(90deg);
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  }
+  .triangle-paragraph-text3 {
+    position: absolute;
+    min-width: 150px;
+    height: auto;
+  /* top: 50%;
+  left: 50%; */
+  top: 220px;
+  left: -24px;
+  /* bottom: 300px; */
+  transform: translate(-50%, -50%) rotate(90deg);
+  color: white;
+  font-size: 12px;
+  /* font-weight: bold; */
+  text-align: center;
+  }
+
+  .triangle-heading-text4, .triangle-heading-text5{
+    position: absolute;
+  /* top: 50%;
+  left: 50%; */
+  top: 150px;
+  /* bottom: 300px; */
+  transform: translate(-50%, -50%) rotate(0deg);
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  }
+  .triangle-paragraph-text4, .triangle-paragraph-text5 {
+    position: absolute;
+    min-width: 150px;
+    height: auto;
+  /* top: 50%;
+  left: 50%; */
+  top: 225px;
+  /* bottom: 300px; */
+  transform: translate(-50%, -50%) rotate(0deg);
+  color: white;
+  font-size: 12px;
+  /* font-weight: bold; */
+  text-align: center;
+  }
+
+
+  .triangle-heading-text6{
+    position: absolute;
+  /* top: 50%;
+  left: 50%; */
+  top: 240px;
+  /* bottom: 300px; */
+  left: -50px;
+  transform: translate(-50%, -50%) rotate(-90deg);
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  }
+  .triangle-paragraph-text6{
+    position: absolute;
+    min-width: 150px;
+    height: auto;
+  /* top: 50%;
+  left: 50%; */
+  top: 230px;
+  /* bottom: 300px; */
+  left: 15px;
+  transform: translate(-50%, -50%) rotate(-90deg);
+  color: white;
+  font-size: 12px;
+  /* font-weight: bold; */
   text-align: center;
   }
   
   /* Triangle Positions */
-  .triangle-1 { top: 0px; left: 80px; transform: rotate(150deg); }
-  .triangle-2 { top: 0px; right: 80px; transform:  rotate(210deg); }
-  .triangle-3 { top: 140px; right: 0px; transform: rotate(-90deg); }
-  .triangle-4 { bottom: 0px; right: 80px; transform: rotate(-30deg); }
-  .triangle-5 { bottom: 0px; left: 80px; transform: rotate(30deg); }
-  .triangle-6 { top: 140px; left: 0px; transform: rotate(90deg); }
-  
-  
+  .triangle-1 { top: 10px; left: 90px; transform: rotate(150deg); }
+  .triangle-2 { top: 10px; right: 90px; transform:  rotate(210deg); }
+  .triangle-3 { top: 140px; right: 15px; transform: rotate(-90deg); }
+  .triangle-4 { bottom: 10px; right: 90px; transform: rotate(-30deg); }
+  .triangle-5 { bottom: 10px; left: 90px; transform: rotate(30deg); }
+  .triangle-6 { top: 140px; left: 15px; transform: rotate(90deg); }
 
+
+  .triangle-layout-large-screen{
+      display: block;
+    }
+    .triangle-layout-medium-screen{
+      display: none;
+    }
+  @media (max-width: 1200px) {
+    .triangle-layout-large-screen{
+      display: none;
+    }
+    .triangle-layout-medium-screen{
+      display: block;
+    }
+
+  }
+  /* Agile Development Process css end  */
 
   /* services we offer css start  */
   .services-we-offer-card-custom {

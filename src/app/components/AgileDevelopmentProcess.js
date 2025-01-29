@@ -50,6 +50,15 @@ const AgileDevelopmentProcess = () => {
     { id: 6, text: "High Quality", rotate: 300 },
   ];
 
+  const processSteps = [
+    { title: "Customer Satisfaction", text: "We follow a customer-centric approach, ensuring that the final product meets our customer’s expectations." },
+    { title: "Team Collaboration", text: "We promote teamwork and maintain transparency with customers by keeping them involved." },
+    { title: "Faster Time-to-Market", text: "By breaking down development into smaller iterations, customers can respond quickly to market demands." },
+    { title: "Cost Efficiency", text: "We focus on delivering value early and frequently, prioritizing features based on business needs." },
+    { title: "Enhanced Flexibility", text: "Our solutions enable businesses to adapt to changing requirements efficiently." },
+    { title: "High Quality", text: "We emphasize continuous testing and feedback to ensure the best product quality." },
+  ];
+
   // return (
   //   <div className="container d-flex justify-content-center align-items-center min-vh-100">
   //     <div className="position-relative" style={{ width: "400px", height: "400px" }}>
@@ -102,76 +111,72 @@ const AgileDevelopmentProcess = () => {
   // );
 
   return (
+
     <div className="background-light-sky py-5">
-    <div className="container my-5">
-      <div className="row align-items-center">
-        {/* Left Section */}
-        <div className="col-md-5 text-center ">
-          <h2 className="text-success mb-4">
-            Reshape Your Business With<br></br> Our Agile Development<br></br> Process
-          </h2>
-          <img
-            src="https://toxsl.com/themes/new/img/agile-process/agile-process2.png" // Replace with actual Agile image URL
-            alt="Agile Development Process"
-            className="img-fluid my-4"
-            style={{ objectFit: 'cover', width: "300px", height: "auto" }}
+      <div className="container my-5">
+        <div className="row align-items-center">
+          {/* Left Section */}
+          <div className="col-lg-6 col-12 text-center ">
+            <h2 className="text-success mb-4">
+              Reshape Your Business With<br></br> Our Agile Development<br></br> Process
+            </h2>
+            <img
+              src="https://toxsl.com/themes/new/img/agile-process/agile-process2.png" // Replace with actual Agile image URL
+              alt="Agile Development Process"
+              className="img-fluid my-4"
+              style={{ objectFit: 'cover', width: "300px", height: "auto" }}
 
-          />
+            />
 
-          <div className="d-flex justify-content-center my-2">
-            <div className="mt-4 bg-success rounded-4" style={{ maxWidth: "440px" }}>
-              <h2 className=" text-white fs-4 py-4 px-5">
-                Become the next big thing by implementing our robust Agile development process.
-              </h2>
-            </div>
-          </div>
-        </div>
-
-        {/* Right Section */}
-        <div className="col-md-7 text-center position-relative">
-          {/* <div className="process-wheel">
-            {processes.map((process, index) => (
-              <div
-                key={index}
-                className={`process-segment segment-${index + 1} d-flex flex-column align-items-center justify-content-center`}
-              >
-                <span className="process-number">{process.number}</span>
-                <h6 className="process-title fw-bold mt-2">{process.title}</h6>
-                <p className="process-description text-muted">
-                  {process.description}
-                </p>
+            <div className="d-flex justify-content-center my-2">
+              <div className="mt-4 bg-success rounded-4" style={{ maxWidth: "440px" }}>
+                <h2 className=" text-white fs-4 py-4 px-5">
+                  Become the next big thing by implementing our robust Agile development process.
+                </h2>
               </div>
-            ))}
-            <div className="process-center-circle d-flex align-items-center justify-content-center">
-              <span className="fw-bold">Our Process</span>
             </div>
-          </div> */}
-
-          <div className="d-flex justify-content-center align-items-center  position-relative">
-      {/* Circle */}
-      <div className="circle2 d-flex justify-content-center align-items-center">Our Process</div>
-
-      {/* Triangles with Headings & Paragraphs */}
-      <div className="triangle-container ">
-        {[
-          { title: "Customer Satisfaction", text: "We follow a customer-centric approach, ensuring that the final product meets our customer’s expectations." },
-          { title: "Team Collaboration", text: "We follow a customer-centric approach, ensuring that the final product meets our customer’s expectations." },
-          { title: "Faster Time-to-Market", text: "We follow a customer-centric approach, ensuring that the final product meets our customer’s expectations." },
-          { title: "Cost Efficiency", text: "We follow a customer-centric approach, ensuring that the final product meets our customer’s expectations." },
-          { title: "Enhanced Flexiblity", text: "We follow a customer-centric approach, ensuring that the final product meets our customer’s expectations." },
-          { title: "High Quality", text: "We follow a customer-centric approach, ensuring that the final product meets our customer’s expectations." },
-        ].map((item, index) => (
-          <div key={index} className={`triangle triangle-${index + 1} `}>
-            <h5 className="triangle-text1 text-black px-2">{item.title}</h5>
-            <p className="triangle-text2 text-black">{item.text}</p>
           </div>
-        ))}
-      </div>
-    </div>
 
+
+          {/* Right Section */}
+          <div className="col-lg-6 col-12 text-center position-relative">
+            {/* Large Screen - Structured Layout */}
+            <div className="triangle-layout-large-screen">
+              <div className=" d-flex justify-content-center align-items-center  position-relative">
+                {/* Circle */}
+                <div className="circle2 d-flex justify-content-center align-items-center">Our<br></br> Process</div>
+
+                {/* Triangles with Headings & Paragraphs */}
+                <div className="triangle-container ">
+                  {processSteps.map((item, index) => (
+                    <div key={index} className={`triangle triangle-${index + 1} `}>
+                      <div className={`triangle-number${index + 1}`}>0{index + 1}</div>
+                      <h5 className={`triangle-heading-text${index + 1} text-black px-2`}>{item.title}</h5>
+                      <p className={`triangle-paragraph-text${index + 1} text-black `}>{item.text}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+
+            {/* Small Screen - Cards Layout */}
+            <div className="triangle-layout-medium-screen">
+              <div className="row py-2  gy-3">
+                {processSteps.map((item, index) => (
+                  <div key={index} className="col-6 d-flex">
+                    <div className="card shadow-sm border-0 p-3 text-start flex-column">
+                      <h5 className="text-success">{item.title}</h5>
+                      <p className="text-muted">{item.text}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+          </div>
         </div>
       </div>
-    </div>
     </div>
   );
 };
