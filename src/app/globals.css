@@ -987,7 +987,7 @@ body.offcanvas-backdrop {
     position: absolute;
   /* top: 50%;
   left: 50%; */
-  top: 220px;
+  top: 235px;
   left: 50px;
   /* bottom: 300px; */
   transform: translate(-50%, -50%) rotate(90deg);
@@ -1002,7 +1002,7 @@ body.offcanvas-backdrop {
     height: auto;
   /* top: 50%;
   left: 50%; */
-  top: 220px;
+  top: 230px;
   left: -24px;
   /* bottom: 300px; */
   transform: translate(-50%, -50%) rotate(90deg);
